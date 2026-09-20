@@ -3,6 +3,7 @@
   const STORAGE_KEY = "biblioteca-bluray-v2-data";
   const SEED_VERSION = String(window.BIBLIOTECA_SEED_VERSION || "0");
   const SETTINGS_KEY = "biblioteca-bluray-v2-settings";
+  const REMOVED_MOVIE_IDS = new Set(["beethoven-3-uma-familia-em-apuros","beethoven-4","beethoven-5","beethoven-a-corrida-para-a-fama","beethoven-aventura-de-natal","beethoven-e-o-tesouro-secreto"]);
   const state = { view:"owned", category:"filmes", sortBy:"title", movies:[], offers:[], selectedMovieId:null, settings:{} };
 
   function loadSettings() {
@@ -24,6 +25,8 @@
       state.movies = structuredClone(window.BIBLIOTECA_SEED || []);
       state.offers = structuredClone(window.BIBLIOTECA_OFFERS_SEED || []);
     }
+    state.movies = state.movies.filter(m=>!REMOVED_MOVIE_IDS.has(m.id));
+    state.offers = state.offers.filter(o=>!REMOVED_MOVIE_IDS.has(o.movieId));
     persistLocal();
   }
   function persistLocal() { localStorage.setItem(STORAGE_KEY, JSON.stringify({seedVersion:SEED_VERSION,movies:state.movies,offers:state.offers})); }
