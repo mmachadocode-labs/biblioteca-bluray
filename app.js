@@ -8,7 +8,7 @@
   function exportJson(){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),movies:S.movies,offers:S.offers},null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`biblioteca-bluray-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href);}
   document.addEventListener("click",e=>{
     const close=e.target.closest("[data-close]");if(close){$(`#${close.dataset.close}`).close();return;}
-    const view=e.target.closest("[data-view]");if(view){S.view=view.dataset.view;S.category="filmes";U.render();return;}
+    const view=e.target.closest("[data-view]");if(view){S.view=view.dataset.view;S.category="filmes";$("#sort").value=S.view==="wanted"?"priority":"title";U.render();return;}
     const cat=e.target.closest("[data-category]");if(cat){S.category=cat.dataset.category;U.render();return;}
     const card=e.target.closest("[data-movie-id]");if(card&&!e.target.closest("button,a")){U.openMovie(card.dataset.movieId);return;}
     const a=e.target.closest("[data-action]");if(!a)return;const id=a.dataset.id;
@@ -31,5 +31,5 @@
   $("#settings-form").addEventListener("submit",async e=>{e.preventDefault();D.saveSettings({apiUrl:e.currentTarget.elements.apiUrl.value.trim(),apiToken:e.currentTarget.elements.apiToken.value});U.syncStatus(S.settings.apiUrl?"Configuração salva. Testando conexão...":"Modo local ativado.");if(S.settings.apiUrl)await sync(false);else U.toast("Configuração salva.");});
   $("#import-json").addEventListener("change",async e=>{const file=e.target.files?.[0];if(!file)return;try{D.replaceLocal(JSON.parse(await file.text()));U.render();U.toast("Backup importado.");}catch(err){U.toast(err.message);}e.target.value="";});
   $("dialog").forEach(dialog=>dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();}));
-  U.render();if(S.settings.apiUrl)sync(false);
+  $("#sort").value=S.view==="wanted"?"priority":"title";U.render();if(S.settings.apiUrl)sync(false);
 })();
