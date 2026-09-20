@@ -14,7 +14,8 @@
     const a=e.target.closest("[data-action]");if(!a)return;const id=a.dataset.id;
     if(a.dataset.action==="add-movie")U.movieForm();
     if(a.dataset.action==="edit-movie")U.movieForm(id);
-    if(a.dataset.action==="add-offer")U.offerForm(id);
+    if(a.dataset.action==="add-offer")U.offerForm(id,"offer");
+    if(a.dataset.action==="add-purchase")U.offerForm(id,"purchase");
     if(a.dataset.action==="mark-owned")run(()=>D.markOwned(id),"Movido para a coleção.");
     if(a.dataset.action==="end-offer")run(()=>D.toggleOffer(id));
     if(a.dataset.action==="settings")U.settings();
