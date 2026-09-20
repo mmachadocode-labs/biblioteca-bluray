@@ -685,3 +685,106 @@ select { padding: 0 12px; }
     display: none;
   }
 }
+
+
+/* Quero comprar: lista compacta somente no mobile */
+.mobile-wanted-info {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body[data-library-view="wanted"] .movie-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  body[data-library-view="wanted"] .movie-card {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 11px;
+    align-items: center;
+    min-height: 94px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  body[data-library-view="wanted"] .movie-card:first-child {
+    border-top: 1px solid var(--line);
+  }
+
+  body[data-library-view="wanted"] .cover {
+    width: 58px;
+    height: 87px;
+    aspect-ratio: auto;
+    border-radius: 7px;
+    box-shadow: none;
+  }
+
+  body[data-library-view="wanted"] .cover-fallback {
+    padding: 7px;
+  }
+
+  body[data-library-view="wanted"] .cover-fallback strong {
+    font-size: 10px;
+    line-height: 1.05;
+  }
+
+  body[data-library-view="wanted"] .cover-fallback span {
+    margin-top: 4px;
+    font-size: 8px;
+  }
+
+  body[data-library-view="wanted"] .card-flags {
+    display: none;
+  }
+
+  body[data-library-view="wanted"] .movie-meta {
+    min-width: 0;
+    padding: 0 4px 0 0;
+  }
+
+  body[data-library-view="wanted"] .movie-meta h3 {
+    display: block;
+    margin: 0;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    font-size: 15px;
+    line-height: 1.18;
+  }
+
+  body[data-library-view="wanted"] .movie-meta-row {
+    justify-content: flex-start;
+    gap: 8px;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  body[data-library-view="wanted"] .movie-meta-row .price-guide {
+    display: none;
+  }
+
+  body[data-library-view="wanted"] .mobile-wanted-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    margin-top: 7px;
+    color: var(--muted);
+    font: 600 10px/1.2 ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body[data-library-view="wanted"] .mobile-priority {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+
+  body[data-library-view="wanted"] .mobile-priority.priority-media {
+    color: #d2c6a8;
+  }
+
+  body[data-library-view="wanted"] .mobile-priority.priority-baixa {
+    color: var(--faint);
+  }
+}
