@@ -904,7 +904,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://4.bp.blogspot.com/-ItZJcyWKZ_Q/Ue78rqc26fI/AAAAAAAAU_g/xy5G8-a42n0/s1600/avioes-disney_poster-br2-2013.jpg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/avioes.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -938,7 +938,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://i5.walmartimages.com/seo/Posterazzi-Cirque-Du-Soleil-Delirium-Movie-Poster_8e3ee583-f804-4b7b-83fe-74b830ba92b1.32f7c9b0a0584377cc90dd09976e4c21.jpeg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/cirque-du-soleil-corteo.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1159,7 +1159,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNDZhNzk4YzEtOGEwNy00OGI1LThlZmEtYTE4NGY2MTI0MDAyXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/cidadao-kane.jpg",
     "tags": [
       "Blu-ray",
       "Edição de aniversário"
@@ -1354,7 +1354,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/8lN3RNXtCdFMMb6kbpdrmdsuRr2.jpg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/angry-birds-toons-t1-vol-2.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1388,7 +1388,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://www.querofilme.com.br/images/posters/t4x/3266-max-o-cao-heroi-1.jpg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/max-o-cao-heroi.jpg",
     "tags": [
       "Blu-ray"
     ],
