@@ -67,9 +67,10 @@
   }
   async function markOwned(id) { const m=getMovie(id); if(!m)return; m.status="owned";m.updatedAt=new Date().toISOString();persistLocal();await write("saveMovie",{movie:m}); }
   async function toggleOffer(id) { const o=state.offers.find(x=>x.id===id);if(!o)return;o.status=o.status==="active"?"ended":"active";o.updatedAt=new Date().toISOString();persistLocal();await write("saveOffer",{offer:o}); }
+  async function deleteOffer(id) { const i=state.offers.findIndex(o=>o.id===id);if(i<0)return;state.offers.splice(i,1);persistLocal();if(state.settings.apiUrl)await api("replaceAll",{movies:state.movies,offers:state.offers}); }
   async function replaceRemote() { return api("replaceAll",{movies:state.movies,offers:state.offers}); }
   function replaceLocal(data) { if(!Array.isArray(data.movies)||!Array.isArray(data.offers)) throw new Error("Arquivo inválido"); state.movies=data.movies;state.offers=data.offers;persistLocal(); }
 
   loadSettings(); loadLocal();
-  window.LibraryData={state,num,total,activeOffers,bestOffer,getMovie,saveSettings,sync,saveMovie,saveOffer,markOwned,toggleOffer,replaceRemote,replaceLocal,persistLocal};
+  window.LibraryData={state,num,total,activeOffers,bestOffer,getMovie,saveSettings,sync,saveMovie,saveOffer,markOwned,toggleOffer,deleteOffer,replaceRemote,replaceLocal,persistLocal};
 })();
