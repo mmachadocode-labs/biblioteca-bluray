@@ -938,7 +938,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/cirque-du-soleil-corteo.jpg",
+    "coverUrl": "https://i.ebayimg.com/images/g/8ocAAOSwp6xmQWN1/s-l1200.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1159,7 +1159,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/cidadao-kane.jpg",
+    "coverUrl": "https://www.famdvd.com.br/media/tmp/webp/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/b/l/blu-ray_cidad_o_kane_jpg.webp",
     "tags": [
       "Blu-ray",
       "Edição de aniversário"
