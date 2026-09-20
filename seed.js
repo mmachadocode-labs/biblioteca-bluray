@@ -315,6 +315,43 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
+    "id": "de-volta-para-o-futuro-trilogia",
+    "title": "De Volta para o Futuro — Trilogia",
+    "year": "",
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/48T2EQe93dguK2pPCMELoP9upVP.jpg",
+    "tags": [
+      "Blu-ray",
+      "Trilogia",
+      "3 discos"
+    ],
+    "notes": "Edição tripla com De Volta para o Futuro I, II e III.",
+    "createdAt": "2026-09-19T21:54:00-03:00",
+    "updatedAt": "2026-09-20T03:14:37.870Z"
+  },
+  {
+    "id": "o-vingador-do-futuro",
+    "title": "O Vingador do Futuro",
+    "year": 2012,
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/6UUqnqTxDMBKeRx4CH4fBJFhhXf.jpg",
+    "tags": [
+      "Blu-ray",
+      "Duplo"
+    ],
+    "notes": "Preço pago registrado no legacy: R$ 22,00.",
+    "createdAt": "2026-09-20T03:14:37.870Z",
+    "updatedAt": "2026-09-20T03:14:37.870Z"
+  },
+  {
     "id": "deja-vu",
     "title": "Déjà Vu",
     "year": 2006,
@@ -813,14 +850,14 @@ window.BIBLIOTECA_SEED = [
     "year": 2014,
     "status": "owned",
     "category": "filmes",
-    "priority": "alta",
+    "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Comprado na Twiin Vídeo por R$ 50,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -922,7 +959,7 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Preço registrado na planilha antiga: R$ 29,90.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -939,7 +976,7 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Preço registrado na planilha antiga: R$ 29,90.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1041,7 +1078,7 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Preço registrado na planilha antiga: R$ 29,90.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1058,7 +1095,7 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Preço registrado na planilha antiga: R$ 29,90.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1109,7 +1146,7 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Preço registrado na planilha antiga: R$ 40,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1136,7 +1173,7 @@ window.BIBLIOTECA_SEED = [
     "year": 1941,
     "status": "owned",
     "category": "filmes",
-    "priority": "media",
+    "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
@@ -1144,7 +1181,7 @@ window.BIBLIOTECA_SEED = [
       "Blu-ray",
       "Edição de aniversário"
     ],
-    "notes": "Comprado na Twiin Vídeo por R$ 90,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1154,14 +1191,14 @@ window.BIBLIOTECA_SEED = [
     "year": 2004,
     "status": "owned",
     "category": "filmes",
-    "priority": "media",
+    "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://image.tmdb.org/t/p/w500/lx4kWcZc3o9PaNxlQpEJZM17XUI.jpg",
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Comprado na Twiin Vídeo por R$ 70,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1171,14 +1208,14 @@ window.BIBLIOTECA_SEED = [
     "year": 2018,
     "status": "owned",
     "category": "filmes",
-    "priority": "media",
+    "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://image.tmdb.org/t/p/w500/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Comprado na Twiin Vídeo por R$ 60,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1188,14 +1225,14 @@ window.BIBLIOTECA_SEED = [
     "year": 2011,
     "status": "owned",
     "category": "filmes",
-    "priority": "media",
+    "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://image.tmdb.org/t/p/w500/ajjvpHJcO9TD45Y0aLZU5yBeW2G.jpg",
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Comprado na Twiin Vídeo por R$ 50,00.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
@@ -1324,6 +1361,91 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
+    "id": "uma-longa-viagem",
+    "title": "Uma Longa Viagem",
+    "year": "",
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/yuADLCxGCA5rFWk2QDXvX5plBrD.jpg",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T02:24:40.278Z",
+    "updatedAt": "2026-09-20T02:24:40.278Z"
+  },
+  {
+    "id": "um-time-show-de-bola",
+    "title": "Um Time Show de Bola",
+    "year": "",
+    "status": "owned",
+    "category": "infantil",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/tJL0oyVmrwSpULCAGaTqs9VMTdM.jpg",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T02:24:40.278Z",
+    "updatedAt": "2026-09-20T02:24:40.278Z"
+  },
+  {
+    "id": "angry-birds-toons-t1-vol-2",
+    "title": "Angry Birds Toons T1 Vol. 2",
+    "year": "",
+    "status": "owned",
+    "category": "infantil",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/8lN3RNXtCdFMMb6kbpdrmdsuRr2.jpg",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T02:24:40.278Z",
+    "updatedAt": "2026-09-20T02:24:40.278Z"
+  },
+  {
+    "id": "turbo",
+    "title": "Turbo",
+    "year": "",
+    "status": "owned",
+    "category": "infantil",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/w6GdF5hcnsU5IwaRhyhnysNy5hO.jpg",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T02:24:40.278Z",
+    "updatedAt": "2026-09-20T02:24:40.278Z"
+  },
+  {
+    "id": "max-o-cao-heroi",
+    "title": "Max: O Cão Herói",
+    "year": "",
+    "status": "owned",
+    "category": "infantil",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "https://image.tmdb.org/t/p/w500/d3ACos3t4YwXML8keTA0wKN8e36.jpg",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T02:24:40.278Z",
+    "updatedAt": "2026-09-20T02:24:40.278Z"
+  },
+  {
     "id": "wilderness-family-triple-feature",
     "title": "The Adventures of the Wilderness Family Triple Feature",
     "year": "",
@@ -1342,43 +1464,6 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-20T02:54:12.761Z"
   },
   {
-    "id": "de-volta-para-o-futuro-trilogia",
-    "title": "De Volta para o Futuro — Trilogia",
-    "year": "",
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/48T2EQe93dguK2pPCMELoP9upVP.jpg",
-    "tags": [
-      "Blu-ray",
-      "Trilogia",
-      "3 discos"
-    ],
-    "notes": "Edição tripla com De Volta para o Futuro I, II e III.",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-20T03:14:50.496Z"
-  },
-  {
-    "id": "o-vingador-do-futuro",
-    "title": "O Vingador do Futuro",
-    "year": 2012,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/6UUqnqTxDMBKeRx4CH4fBJFhhXf.jpg",
-    "tags": [
-      "Blu-ray",
-      "Duplo"
-    ],
-    "notes": "Preço pago registrado no legacy: R$ 22,00.",
-    "createdAt": "2026-09-20T03:14:50.496Z",
-    "updatedAt": "2026-09-20T03:14:50.496Z"
-  },
-  {
     "id": "como-treinar-o-seu-dragao-2",
     "title": "Como Treinar o Seu Dragão 2",
     "year": 2014,
@@ -1392,8 +1477,8 @@ window.BIBLIOTECA_SEED = [
       "Blu-ray"
     ],
     "notes": "",
-    "createdAt": "2026-09-20T03:21:14.653Z",
-    "updatedAt": "2026-09-20T03:21:14.653Z"
+    "createdAt": "2026-09-20T03:21:06.457Z",
+    "updatedAt": "2026-09-20T03:21:06.457Z"
   },
   {
     "id": "solaris",
