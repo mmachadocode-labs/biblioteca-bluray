@@ -1,8 +1,3 @@
-window.BIBLIOTECA_SEED_VERSION = (() => {
-  try { return new URL(document.currentScript.src, window.location.href).searchParams.get("v") || "0"; }
-  catch (_) { return "0"; }
-})();
-
 window.BIBLIOTECA_SEED = [
   {
     "id": "curtindo-a-vida-adoidado",
@@ -100,14 +95,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2000,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-era-do-gelo",
@@ -115,14 +112,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2002,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-era-do-gelo-2",
@@ -130,14 +129,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2006,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-era-do-gelo-3",
@@ -145,14 +146,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2009,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-era-do-gelo-4",
@@ -160,14 +163,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2012,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-era-do-gelo-o-big-bang",
@@ -175,14 +180,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2016,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-invencao-de-hugo-cabret",
@@ -194,10 +201,12 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 45,
     "limitPrice": 65,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-rede",
@@ -209,10 +218,12 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 45,
     "limitPrice": 65,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-vida-e-bela",
@@ -220,14 +231,16 @@ window.BIBLIOTECA_SEED = [
     "year": 1997,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "a-vida-secreta-de-walter-mitty",
@@ -235,14 +248,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2013,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "as-aventuras-de-pi",
@@ -250,44 +265,50 @@ window.BIBLIOTECA_SEED = [
     "year": 2012,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "bob-esponja-o-filme",
-    "title": "Bob Esponja - O Filme",
+    "title": "Bob Esponja: O Filme",
     "year": 2004,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "bob-esponja-um-heroi-fora-d-agua",
-    "title": "Bob Esponja - Um Herói Fora D'Água",
+    "title": "Bob Esponja: Um Herói Fora D’Água",
     "year": 2015,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "bob-esponja-em-busca-da-calca-quadrada",
@@ -295,14 +316,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2025,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "bob-esponja-o-incrivel-resgate",
@@ -310,14 +333,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2020,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "de-volta-para-o-futuro-trilogia",
@@ -362,14 +387,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2006,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "doze-homens-e-outro-segredo",
@@ -377,14 +404,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2004,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "forrest-gump",
@@ -392,14 +421,16 @@ window.BIBLIOTECA_SEED = [
     "year": 1994,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "gravidade",
@@ -458,14 +489,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2018,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "maze-runner-prova-de-fogo",
@@ -473,14 +506,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2015,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "mestre-dos-mares-o-lado-mais-distante-do-mundo",
@@ -492,10 +527,12 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 55,
     "limitPrice": 75,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "meu-malvado-favorito",
@@ -503,14 +540,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2010,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "meu-malvado-favorito-2",
@@ -518,14 +557,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2013,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "meu-malvado-favorito-3",
@@ -533,14 +574,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2017,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "meu-malvado-favorito-4",
@@ -548,14 +591,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2024,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "minions",
@@ -563,14 +608,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2015,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "minions-2-a-origem-de-gru",
@@ -578,14 +625,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2022,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "monstros-s-a",
@@ -593,14 +642,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2001,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "o-chamado-da-floresta",
@@ -612,10 +663,12 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 45,
     "limitPrice": 65,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "o-enigma-da-piramide",
@@ -623,14 +676,16 @@ window.BIBLIOTECA_SEED = [
     "year": 1985,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "o-quinto-elemento",
@@ -638,14 +693,16 @@ window.BIBLIOTECA_SEED = [
     "year": 1997,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "os-incriveis",
@@ -653,14 +710,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2004,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "os-incriveis-2",
@@ -668,14 +727,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2018,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "os-pinguins-de-madagascar",
@@ -683,14 +744,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2014,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "reino-de-fogo",
@@ -715,14 +778,16 @@ window.BIBLIOTECA_SEED = [
     "year": 1989,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "ta-chovendo-hamburguer",
@@ -748,14 +813,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2007,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "truque-de-mestre",
@@ -763,14 +830,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2013,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "truque-de-mestre-o-2-ato",
@@ -778,14 +847,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2016,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "truque-de-mestre-o-3-ato",
@@ -793,14 +864,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2025,
     "status": "wanted",
     "category": "filmes",
-    "priority": "",
+    "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "universidade-monstros",
@@ -825,14 +898,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2009,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "wall-e",
@@ -840,14 +915,16 @@ window.BIBLIOTECA_SEED = [
     "year": 2008,
     "status": "wanted",
     "category": "infantil",
-    "priority": "",
+    "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "whiplash-em-busca-da-perfeicao",
@@ -1251,70 +1328,80 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 45,
     "limitPrice": 65,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "fargo",
-    "title": "Fargo",
-    "year": 1996,
+    "id": "prenda-me-se-for-capaz",
+    "title": "Prenda-me se For Capaz",
+    "year": 2002,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "alta",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
+  },
+  {
+    "id": "a-historia-sem-fim",
+    "title": "A História sem Fim",
+    "year": 1984,
     "status": "wanted",
     "category": "filmes",
     "priority": "media",
-    "targetPrice": 45,
-    "limitPrice": 65,
+    "targetPrice": 0,
+    "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "dogville",
-    "title": "Dogville",
-    "year": 2003,
+    "id": "as-palavras",
+    "title": "As Palavras",
+    "year": 2012,
     "status": "wanted",
     "category": "filmes",
     "priority": "media",
-    "targetPrice": 45,
-    "limitPrice": 65,
+    "targetPrice": 0,
+    "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "a-cura",
-    "title": "A Cura",
-    "year": 1995,
+    "id": "onze-homens-e-um-segredo",
+    "title": "Onze Homens e um Segredo",
+    "year": 2001,
     "status": "wanted",
     "category": "filmes",
     "priority": "media",
-    "targetPrice": 45,
-    "limitPrice": 65,
+    "targetPrice": 0,
+    "limitPrice": 0,
     "coverUrl": "",
-    "tags": [],
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "cinema-paradiso",
-    "title": "Cinema Paradiso",
-    "year": 1988,
-    "status": "wanted",
-    "category": "filmes",
-    "priority": "media",
-    "targetPrice": 45,
-    "limitPrice": 65,
-    "coverUrl": "",
-    "tags": [],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
     "id": "uma-longa-viagem",
@@ -1454,472 +1541,464 @@ window.BIBLIOTECA_SEED = [
     "notes": "",
     "createdAt": "2026-09-20T03:22:29.936Z",
     "updatedAt": "2026-09-20T14:15:00.000Z"
-  }
-];
-
-window.BIBLIOTECA_OFFERS_SEED = [
+  },
   {
-    "id": "4ed80f90-7475-4569-99d2-b7e3b8691f10",
-    "movieId": "60-segundos",
-    "store": "teste",
-    "seller": "",
-    "price": 40,
-    "shipping": 20,
-    "fees": 0,
-    "condition": "",
-    "url": "",
-    "checkedAt": 46285,
-    "status": "active",
+    "id": "querida-encolhi-as-criancas",
+    "title": "Querida, Encolhi as Crianças",
+    "year": 1989,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "media",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
     "notes": "",
-    "createdAt": "2026-09-20T02:07:54.241Z",
-    "updatedAt": "2026-09-20T02:07:54.241Z"
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-01",
-    "movieId": "ta-chovendo-hamburguer",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "querida-estiquei-o-bebe",
+    "title": "Querida, Estiquei o Bebê",
+    "year": 1992,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "media",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-02",
-    "movieId": "uma-longa-viagem",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "querida-encolhi-a-gente",
+    "title": "Querida, Encolhi a Gente",
+    "year": 1997,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "media",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-03",
-    "movieId": "mib-3",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "a-historia-sem-fim-2",
+    "title": "A História sem Fim 2",
+    "year": 1990,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-04",
-    "movieId": "um-time-show-de-bola",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "a-historia-sem-fim-3",
+    "title": "A História sem Fim 3",
+    "year": 1994,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-05",
-    "movieId": "angry-birds-toons-t1-vol-2",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-o-magnifico",
+    "title": "Beethoven: O Magnífico",
+    "year": 1992,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-06",
-    "movieId": "turbo",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-2",
+    "title": "Beethoven 2",
+    "year": 1993,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-07",
-    "movieId": "intocaveis",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 20,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-3-uma-familia-em-apuros",
+    "title": "Beethoven 3: Uma Família em Apuros",
+    "year": 2000,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-08",
-    "movieId": "as-aventuras-de-tintim",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 20,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-4",
+    "title": "Beethoven 4",
+    "year": 2001,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-09",
-    "movieId": "universidade-monstros",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 20,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-5",
+    "title": "Beethoven 5",
+    "year": 2003,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-10",
-    "movieId": "angry-birds-o-filme",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-a-corrida-para-a-fama",
+    "title": "Beethoven: A Corrida para a Fama",
+    "year": 2008,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260805-11",
-    "movieId": "max-o-cao-heroi",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 10,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-08-05",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:24:40.278Z",
-    "updatedAt": "2026-09-20T02:24:40.278Z"
+    "id": "beethoven-aventura-de-natal",
+    "title": "Beethoven: Aventura de Natal",
+    "year": 2011,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260919-whiplash",
-    "movieId": "whiplash-em-busca-da-perfeicao",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 50,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-09-19",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:28:18.176Z",
-    "updatedAt": "2026-09-20T02:28:18.176Z"
+    "id": "beethoven-e-o-tesouro-secreto",
+    "title": "Beethoven e o Tesouro Secreto",
+    "year": 2014,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260919-cidadao-kane",
-    "movieId": "cidadao-kane",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 90,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-09-19",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:28:18.176Z",
-    "updatedAt": "2026-09-20T02:28:18.176Z"
+    "id": "e-t-o-extraterrestre",
+    "title": "E.T. — O Extraterrestre",
+    "year": 1982,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260919-o-aviador",
-    "movieId": "o-aviador",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 70,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-09-19",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:28:18.176Z",
-    "updatedAt": "2026-09-20T02:28:18.176Z"
+    "id": "edward-maos-de-tesoura",
+    "title": "Edward Mãos de Tesoura",
+    "year": 1990,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260919-jogador-n-1",
-    "movieId": "jogador-n-1",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 60,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-09-19",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:28:18.176Z",
-    "updatedAt": "2026-09-20T02:28:18.176Z"
+    "id": "esqueceram-de-mim",
+    "title": "Esqueceram de Mim",
+    "year": 1990,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "twiin-20260919-o-homem-do-futuro",
-    "movieId": "o-homem-do-futuro",
-    "store": "Twiin Vídeo",
-    "seller": "",
-    "price": 50,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Usado - excelente",
-    "url": "",
-    "checkedAt": "2026-09-19",
-    "status": "purchased",
-    "notes": "Compra presencial.",
-    "createdAt": "2026-09-20T02:28:18.176Z",
-    "updatedAt": "2026-09-20T02:28:18.176Z"
+    "id": "esqueceram-de-mim-2",
+    "title": "Esqueceram de Mim 2",
+    "year": 1992,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "amazon-20260807-interestelar",
-    "movieId": "interestelar",
-    "store": "Amazon Global",
-    "seller": "",
-    "price": 57.51,
-    "shipping": 0,
-    "fees": 11.67,
-    "condition": "",
-    "url": "",
-    "checkedAt": "2026-08-07",
-    "status": "purchased",
-    "notes": "Produto R$ 57,51 + importação R$ 11,67 - pontos R$ 29,81 = total efetivamente pago R$ 39,37.",
-    "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "id": "esqueceram-de-mim-3",
+    "title": "Esqueceram de Mim 3",
+    "year": 1997,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "amazon-20260807-reino-de-fogo",
-    "movieId": "reino-de-fogo",
-    "store": "Amazon Global",
-    "seller": "",
-    "price": 51.05,
-    "shipping": 0,
-    "fees": 10.36,
-    "condition": "",
-    "url": "",
-    "checkedAt": "2026-08-07",
-    "status": "purchased",
-    "notes": "Produto R$ 51,05 + importação R$ 10,36 = total pago R$ 61,41.",
-    "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "id": "esqueceram-de-mim-4",
+    "title": "Esqueceram de Mim 4",
+    "year": 2002,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "shopee-sherlock-holmes-jogo-sombras",
-    "movieId": "sherlock-holmes-o-jogo-de-sombras",
-    "store": "Shopee",
-    "seller": "comendadorleiloes",
-    "price": 29.9,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "Pedido com 4 Blu-rays; total do pedido R$ 119,60.",
-    "createdAt": "2026-09-20T02:47:40.968Z",
-    "updatedAt": "2026-09-20T02:47:40.968Z"
+    "id": "esqueceram-de-mim-5",
+    "title": "Esqueceram de Mim 5",
+    "year": 2012,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "shopee-sherlock-holmes",
-    "movieId": "sherlock-holmes",
-    "store": "Shopee",
-    "seller": "comendadorleiloes",
-    "price": 29.9,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "Pedido com 4 Blu-rays; total do pedido R$ 119,60.",
-    "createdAt": "2026-09-20T02:47:40.968Z",
-    "updatedAt": "2026-09-20T02:47:40.968Z"
+    "id": "esqueceram-de-mim-no-lar-doce-lar",
+    "title": "Esqueceram de Mim no Lar, Doce Lar",
+    "year": 2021,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "shopee-john-carter",
-    "movieId": "john-carter-entre-dois-mundos",
-    "store": "Shopee",
-    "seller": "comendadorleiloes",
-    "price": 29.9,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "Pedido com 4 Blu-rays; total do pedido R$ 119,60.",
-    "createdAt": "2026-09-20T02:47:40.968Z",
-    "updatedAt": "2026-09-20T02:47:40.968Z"
+    "id": "free-willy",
+    "title": "Free Willy",
+    "year": 1993,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "shopee-maze-runner",
-    "movieId": "maze-runner-correr-ou-morrer",
-    "store": "Shopee",
-    "seller": "comendadorleiloes",
-    "price": 29.9,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "Pedido com 4 Blu-rays; total do pedido R$ 119,60.",
-    "createdAt": "2026-09-20T02:47:40.968Z",
-    "updatedAt": "2026-09-20T02:47:40.968Z"
+    "id": "free-willy-2",
+    "title": "Free Willy 2",
+    "year": 1995,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "mercadolivre-20260730-star-trek-sem-fronteiras",
-    "movieId": "star-trek-sem-fronteiras",
-    "store": "Mercado Livre",
-    "seller": "",
-    "price": 40,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Novo",
-    "url": "",
-    "checkedAt": "2026-07-30",
-    "status": "purchased",
-    "notes": "Blu-ray original lacrado. Entregue em 06/08/2026.",
-    "createdAt": "2026-09-20T02:52:33.689Z",
-    "updatedAt": "2026-09-20T02:52:33.689Z"
+    "id": "free-willy-3",
+    "title": "Free Willy 3",
+    "year": 1997,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "amazon-20260619-wilderness-family-triple-feature",
-    "movieId": "wilderness-family-triple-feature",
-    "store": "Amazon.com.br",
-    "seller": "Amazon.com.br",
-    "price": 63.59,
-    "shipping": 0,
-    "fees": 0,
-    "condition": "Novo",
-    "url": "",
-    "checkedAt": "2026-06-19",
-    "status": "purchased",
-    "notes": "Pedido total R$ 154,57; pontos R$ 50,46 rateados proporcionalmente sobre o item. Custo efetivo R$ 13,13.",
-    "createdAt": "2026-09-20T02:54:12.761Z",
-    "updatedAt": "2026-09-20T02:54:12.761Z"
+    "id": "free-willy-a-grande-fuga",
+    "title": "Free Willy: A Grande Fuga",
+    "year": 2010,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "enjoei-de-volta-para-o-futuro-trilogia",
-    "movieId": "de-volta-para-o-futuro-trilogia",
-    "store": "Enjoei",
-    "seller": "Eduardo",
-    "price": 80,
-    "shipping": "",
-    "fees": "",
-    "condition": "Usado",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "[FRETE_NAO_RATEADO] Preço do box R$ 80,00. Frete do pedido não rateado.",
-    "createdAt": "2026-09-20T14:15:00.000Z",
-    "updatedAt": "2026-09-20T14:15:00.000Z"
+    "id": "meu-primeiro-amor",
+    "title": "Meu Primeiro Amor",
+    "year": 1991,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   },
   {
-    "id": "enjoei-o-vingador-do-futuro",
-    "movieId": "o-vingador-do-futuro",
-    "store": "Enjoei",
-    "seller": "Eduardo",
-    "price": 22,
-    "shipping": "",
-    "fees": "",
-    "condition": "Usado",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "[FRETE_NAO_RATEADO] Preço do item R$ 22,00. Frete do pedido não rateado.",
-    "createdAt": "2026-09-20T14:15:00.000Z",
-    "updatedAt": "2026-09-20T14:15:00.000Z"
-  },
-  {
-    "id": "enjoei-gravidade",
-    "movieId": "gravidade",
-    "store": "Enjoei",
-    "seller": "",
-    "price": 27,
-    "shipping": 9.46,
-    "fees": 7.35,
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "crédito R$ 5,40 aplicado ao pedido. Total efetivamente pago R$ 38,41.",
-    "createdAt": "2026-09-20T14:15:00.000Z",
-    "updatedAt": "2026-09-20T14:15:00.000Z"
-  },
-  {
-    "id": "legacy-solaris",
-    "movieId": "solaris",
-    "store": "Registro legado",
-    "seller": "",
-    "price": 89.93,
-    "shipping": "",
-    "fees": "",
-    "condition": "",
-    "url": "",
-    "checkedAt": "",
-    "status": "purchased",
-    "notes": "[TOTAL_PAGO] Valor total pago registrado no legacy: R$ 89,93. Composição entre produto, frete e taxas não informada.",
-    "createdAt": "2026-09-20T14:15:00.000Z",
-    "updatedAt": "2026-09-20T14:15:00.000Z"
+    "id": "meu-primeiro-amor-2",
+    "title": "Meu Primeiro Amor 2",
+    "year": 1994,
+    "status": "wanted",
+    "category": "filmes",
+    "priority": "baixa",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray"
+    ],
+    "notes": "",
+    "createdAt": "2026-09-20T15:37:00-03:00",
+    "updatedAt": "2026-09-20T15:37:00-03:00"
   }
 ];
