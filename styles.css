@@ -381,3 +381,18 @@ select { padding: 0 12px; }
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+/* Composição completa das compras */
+.purchase-row {
+  grid-template-columns: minmax(140px,1.25fr) .75fr .65fr .65fr .8fr auto;
+}
+
+@media (max-width: 760px) {
+  .purchase-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .purchase-row .offer-store {
+    grid-column: 1 / -1;
+  }
+}
