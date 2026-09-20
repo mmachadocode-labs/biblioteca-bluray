@@ -1,0 +1,1 @@
+window.BIBLIOTECA_CONFIG = {\n  apiUrl: ""\n};\n
