@@ -1029,23 +1029,6 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
-    "id": "prenda-me-se-for-capaz",
-    "title": "Prenda-me se For Capaz",
-    "year": 2002,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [
-      "Blu-ray"
-    ],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
     "id": "sherlock-holmes",
     "title": "Sherlock Holmes",
     "year": 2009,
@@ -1396,22 +1379,20 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-20T03:14:50.496Z"
   },
   {
-    "id": "solaris",
-    "title": "Solaris",
-    "year": 1972,
+    "id": "como-treinar-o-seu-dragao-2",
+    "title": "Como Treinar o Seu Dragão 2",
+    "year": 2014,
     "status": "owned",
-    "category": "filmes",
+    "category": "infantil",
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "",
     "tags": [
-      "Blu-ray",
-      "Edição especial",
-      "Versátil"
+      "Blu-ray"
     ],
-    "notes": "Preço pago registrado no legacy: R$ 89,93.",
-    "createdAt": "2026-09-20T03:14:50.496Z",
-    "updatedAt": "2026-09-20T03:14:50.496Z"
+    "notes": "",
+    "createdAt": "2026-09-20T03:21:14.653Z",
+    "updatedAt": "2026-09-20T03:21:14.653Z"
   }
 ];
