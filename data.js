@@ -3,7 +3,7 @@
   const STORAGE_KEY = "biblioteca-bluray-v2-data";
   const SEED_VERSION = String(window.BIBLIOTECA_SEED_VERSION || "0");
   const SETTINGS_KEY = "biblioteca-bluray-v2-settings";
-  const state = { view:"owned", category:"filmes", movies:[], offers:[], selectedMovieId:null, settings:{} };
+  const state = { view:"owned", category:"filmes", sortBy:"title", movies:[], offers:[], selectedMovieId:null, settings:{} };
 
   function loadSettings() {
     const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}");
