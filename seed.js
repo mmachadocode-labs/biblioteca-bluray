@@ -1394,5 +1394,24 @@ window.BIBLIOTECA_SEED = [
     "notes": "",
     "createdAt": "2026-09-20T03:21:14.653Z",
     "updatedAt": "2026-09-20T03:21:14.653Z"
+  },
+  {
+    "id": "solaris",
+    "title": "Solaris",
+    "year": 1972,
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray",
+      "Edição especial",
+      "Versátil"
+    ],
+    "notes": "Preço pago registrado no legacy: R$ 89,93.",
+    "createdAt": "2026-09-20T03:22:29.936Z",
+    "updatedAt": "2026-09-20T03:22:29.936Z"
   }
 ];
