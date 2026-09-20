@@ -315,51 +315,6 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
-    "id": "de-volta-para-o-futuro",
-    "title": "De Volta para o Futuro",
-    "year": 1985,
-    "status": "wanted",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "de-volta-para-o-futuro-ii",
-    "title": "De Volta para o Futuro II",
-    "year": 1989,
-    "status": "wanted",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "de-volta-para-o-futuro-iii",
-    "title": "De Volta para o Futuro III",
-    "year": 1990,
-    "status": "wanted",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
     "id": "deja-vu",
     "title": "Déjà Vu",
     "year": 2006,
@@ -1402,5 +1357,61 @@ window.BIBLIOTECA_SEED = [
     "notes": "Edição com os três filmes da série Wilderness Family.",
     "createdAt": "2026-09-20T02:54:12.761Z",
     "updatedAt": "2026-09-20T02:54:12.761Z"
+  },
+  {
+    "id": "de-volta-para-o-futuro-trilogia",
+    "title": "De Volta para o Futuro — Trilogia",
+    "year": "",
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray",
+      "Trilogia",
+      "3 discos"
+    ],
+    "notes": "Edição tripla com De Volta para o Futuro I, II e III.",
+    "createdAt": "2026-09-19T21:54:00-03:00",
+    "updatedAt": "2026-09-20T03:14:50.496Z"
+  },
+  {
+    "id": "o-vingador-do-futuro",
+    "title": "O Vingador do Futuro",
+    "year": 2012,
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray",
+      "Duplo"
+    ],
+    "notes": "Preço pago registrado no legacy: R$ 22,00.",
+    "createdAt": "2026-09-20T03:14:50.496Z",
+    "updatedAt": "2026-09-20T03:14:50.496Z"
+  },
+  {
+    "id": "solaris",
+    "title": "Solaris",
+    "year": 1972,
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray",
+      "Edição especial",
+      "Versátil"
+    ],
+    "notes": "Preço pago registrado no legacy: R$ 89,93.",
+    "createdAt": "2026-09-20T03:14:50.496Z",
+    "updatedAt": "2026-09-20T03:14:50.496Z"
   }
 ];
