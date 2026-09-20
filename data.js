@@ -1,6 +1,7 @@
 (() => {
   "use strict";
   const STORAGE_KEY = "biblioteca-bluray-v2-data";
+  const SEED_VERSION = String(window.BIBLIOTECA_SEED_VERSION || "0");
   const SETTINGS_KEY = "biblioteca-bluray-v2-settings";
   const state = { view:"owned", category:"filmes", movies:[], offers:[], selectedMovieId:null, settings:{} };
 
@@ -12,12 +13,20 @@
   function loadLocal() {
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-      state.movies = Array.isArray(parsed?.movies) ? parsed.movies : structuredClone(window.BIBLIOTECA_SEED || []);
-      state.offers = Array.isArray(parsed?.offers) ? parsed.offers : [];
-    } catch { state.movies = structuredClone(window.BIBLIOTECA_SEED || []); state.offers = []; }
+      const sameVersion = String(parsed?.seedVersion || "") === SEED_VERSION;
+      state.movies = sameVersion && Array.isArray(parsed?.movies)
+        ? parsed.movies
+        : structuredClone(window.BIBLIOTECA_SEED || []);
+      state.offers = sameVersion && Array.isArray(parsed?.offers)
+        ? parsed.offers
+        : structuredClone(window.BIBLIOTECA_OFFERS_SEED || []);
+    } catch {
+      state.movies = structuredClone(window.BIBLIOTECA_SEED || []);
+      state.offers = structuredClone(window.BIBLIOTECA_OFFERS_SEED || []);
+    }
     persistLocal();
   }
-  function persistLocal() { localStorage.setItem(STORAGE_KEY, JSON.stringify({movies:state.movies,offers:state.offers})); }
+  function persistLocal() { localStorage.setItem(STORAGE_KEY, JSON.stringify({seedVersion:SEED_VERSION,movies:state.movies,offers:state.offers})); }
   function num(v) { const n=Number(v); return Number.isFinite(n)?n:0; }
   function total(offer) { return num(offer.price)+num(offer.shipping)+num(offer.fees); }
   function activeOffers(movieId) { return state.offers.filter(o=>o.movieId===movieId && o.status==="active"); }
