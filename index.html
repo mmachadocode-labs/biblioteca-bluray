@@ -6,7 +6,7 @@
   <meta name="description" content="Biblioteca pessoal de Blu-rays com coleção, lista de desejos e pesquisa de preços.">
   <meta name="theme-color" content="#0a0a09">
   <title>Biblioteca Blu-ray</title>
-  <link rel="stylesheet" href="styles.css?v=20260919-2301">
+  <link rel="stylesheet" href="styles.css?v=20260919-2315">
 </head>
 <body>
   <header class="topbar">
@@ -21,19 +21,6 @@
   </header>
 
   <main class="shell">
-    <section class="intro-panel">
-      <div>
-        <p class="eyebrow">Acervo pessoal</p>
-        <h1>Biblioteca Blu-ray</h1>
-        <p class="subtitle">Coleção, lista de desejos e referência de preços em um só lugar.</p>
-      </div>
-      <div class="summary" aria-label="Resumo">
-        <div><strong id="count-owned">0</strong><span>na coleção</span></div>
-        <div><strong id="count-wanted">0</strong><span>quero comprar</span></div>
-        <div><strong id="count-offers">0</strong><span>ofertas ativas</span></div>
-      </div>
-    </section>
-
     <section class="toolbar-card">
       <nav class="tabs" aria-label="Seções">
         <button class="tab active" type="button" data-view="owned">Coleção</button>
@@ -44,14 +31,23 @@
           <span>⌕</span>
           <input id="search" type="search" placeholder="Buscar filme..." autocomplete="off">
         </label>
-        <select id="sort" aria-label="Ordenar">
-          <option value="title">Título A–Z</option>
-          <option value="year-desc">Ano mais recente</option>
-          <option value="recent">Adicionados recentemente</option>
-          <option value="priority">Prioridade</option>
-          <option value="best-price">Melhor preço</option>
-        </select>
-        <button class="primary-btn" type="button" data-action="add-movie">+ Filme</button>
+        <div class="toolbar-side">
+          <div class="toolbar-actions">
+            <select id="sort" aria-label="Ordenar">
+              <option value="title">Título A–Z</option>
+              <option value="year-desc">Ano mais recente</option>
+              <option value="recent">Adicionados recentemente</option>
+              <option value="priority">Prioridade</option>
+              <option value="best-price">Melhor preço</option>
+            </select>
+            <button class="primary-btn" type="button" data-action="add-movie">+ Filme</button>
+          </div>
+          <div class="summary" aria-label="Resumo">
+            <div><strong id="count-owned">0</strong><span>na coleção</span></div>
+            <div><strong id="count-wanted">0</strong><span>quero comprar</span></div>
+            <div><strong id="count-offers">0</strong><span>ofertas ativas</span></div>
+          </div>
+        </div>
       </div>
       <div class="subfilters" id="subfilters"></div>
       <p class="results-line" id="results-line"></p>
@@ -138,11 +134,11 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="config.js?v=20260919-2301"></script>
-  <script src="seed.js?v=20260919-2301"></script>
-  <script src="data.js?v=20260919-2301"></script>
-  <script src="ui-list.js?v=20260919-2301"></script>
-  <script src="ui-detail.js?v=20260919-2301"></script>
-  <script src="app.js?v=20260919-2301"></script>
+  <script src="config.js?v=20260919-2315"></script>
+  <script src="seed.js?v=20260919-2315"></script>
+  <script src="data.js?v=20260919-2315"></script>
+  <script src="ui-list.js?v=20260919-2315"></script>
+  <script src="ui-detail.js?v=20260919-2315"></script>
+  <script src="app.js?v=20260919-2315"></script>
 </body>
 </html>
