@@ -405,7 +405,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://4.bp.blogspot.com/-CUilUkefzyY/VHQ_98qUd2I/AAAAAAAAoHw/9CAoHr_MvkE/s1600/gravidade-poster3.jpg",
+    "coverUrl": "https://www.famdvd.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/d/bd_gravidade_2.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -422,7 +422,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://papodecinema.com.br/wp-content/uploads/2014/05/interestelar-papo-de-cinema.webp",
+    "coverUrl": "https://image.tmdb.org/t/p/original/55JWKCqNTn54016voGvig52ikjb.jpg",
     "tags": [
       "Blu-ray"
     ],
