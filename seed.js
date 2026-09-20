@@ -1091,7 +1091,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/9ZaGxvj1mqdKVLpSloq4mzS7SK6.jpg",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/03b831493fd4980594550627a348f1c44b0730479a7942534d3c9e66e0d6bca6.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1108,7 +1108,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/e1047f15697b01172017922334a25cf1ff74ca73778a28660fd1ac5d4126be5a.jpg",
     "tags": [
       "Blu-ray"
     ],
