@@ -1440,7 +1440,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/solaris-edicao-especial.jpg",
+    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/solaris-edicao-especial.jpg?v=20260920-1220",
     "tags": [
       "Blu-ray",
       "Edição especial",
