@@ -1006,7 +1006,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/original/qmy6Iz0q5xTCYNFrPvqxx1gw5d7.jpg",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/9fa4fe73d47f94633c70ad2a33a9c533103f89c4ef68f6fa0f83fa14405512c7.jpg",
     "tags": [
       "Blu-ray"
     ],
