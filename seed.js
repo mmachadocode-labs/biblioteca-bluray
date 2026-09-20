@@ -1237,23 +1237,6 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
-    "id": "ilha-do-medo",
-    "title": "Ilha do Medo",
-    "year": 2010,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "media",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "https://image.tmdb.org/t/p/w500/9JHlzQyzyXcsGgl0htYfsm8AnfS.jpg",
-    "tags": [
-      "Blu-ray"
-    ],
-    "notes": "Comprado por R$ 79,00.",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
     "id": "as-aventuras-de-tintim",
     "title": "As Aventuras de Tintim",
     "year": 2011,
