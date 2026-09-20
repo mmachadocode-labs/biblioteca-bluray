@@ -405,7 +405,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://www.famdvd.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/d/bd_gravidade_2.jpg",
+    "coverUrl": "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/243/eHLufJ1bHy4PtEBJdPSTu4jIhZ0.jpg",
     "tags": [
       "Blu-ray"
     ],
