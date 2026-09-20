@@ -120,6 +120,7 @@ select { padding: 0 12px; }
 .offer-status-ended { opacity: .52; }
 .row-actions { display: flex; gap: 5px; }
 .mini-btn { width: 30px; height: 30px; border: 1px solid var(--line); border-radius: 8px; background: #10100e; cursor: pointer; }
+.delete-offer-btn { width: auto; padding: 0 9px; color: #d98b86; }
 .notes { color: var(--muted); line-height: 1.6; white-space: pre-wrap; }
 .toast { position: fixed; left: 50%; bottom: 26px; z-index: 100; transform: translate(-50%, 18px); padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; background: #171714; box-shadow: var(--shadow); opacity: 0; pointer-events: none; transition: .2s ease; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
