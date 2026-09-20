@@ -411,6 +411,11 @@ select { padding: 0 12px; }
   min-height: 44px;
 }
 
+/* Direct children: search + sort + add on desktop */
+.toolbar {
+  grid-template-columns: minmax(260px, 1fr) 210px auto;
+}
+
 @media (max-width: 600px) {
   .topbar {
     height: 58px;
