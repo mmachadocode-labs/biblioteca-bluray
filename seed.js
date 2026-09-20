@@ -8,7 +8,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
     "tags": [
       "Blu-ray",
       "Compactado"
@@ -26,7 +26,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/6YGlQxEzEqQ5VYj64NvzbItXKPX.jpg",
     "tags": [
       "Blu-ray",
       "Compactado"
@@ -44,7 +44,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/lV5OpzAss1z06YNagOVap1I35mH.jpg",
     "tags": [
       "Blu-ray",
       "Compactado"
@@ -62,7 +62,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/7XrRkhMa9lQ71RszzSyVrJVvhyS.jpg",
     "tags": [
       "Blu-ray",
       "Compactado"
@@ -80,7 +80,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/shHrSmXS5140o6sQzgzXxn3KqSm.jpg",
     "tags": [
       "Blu-ray",
       "Compactado"
@@ -368,7 +368,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/kZ2nZw8D681aphje8NJi8EfbL1U.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -385,7 +385,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -402,7 +402,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/ihWaJZCUIon2dXcosjQG2JHJAPN.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -659,7 +659,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/vZVXCj3jXzIPJUHLaQohzt2uTM3.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -691,7 +691,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/qhOhIKf7QEyQ5dMrRUqs5eTX1Oq.jpg",
     "tags": [
       "Blu-ray",
       "3D"
@@ -769,7 +769,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/y7thwJ7z5Bplv6vwl6RI0yteaDD.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -816,7 +816,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -833,7 +833,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/qweKCtPdnIP2uGp1PgWZyCV7gzj.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -850,7 +850,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -867,7 +867,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/i2xgU0y0p77WTrB0oIkbpdaWq8R.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -884,7 +884,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/dcOvIqdsojUdAtWt1nPT9xS76Su.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -901,7 +901,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://i5.walmartimages.com/seo/Posterazzi-Cirque-Du-Soleil-Delirium-Movie-Poster_8e3ee583-f804-4b7b-83fe-74b830ba92b1.32f7c9b0a0584377cc90dd09976e4c21.jpeg",
     "tags": [
       "Blu-ray"
     ],
@@ -918,7 +918,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/lCxz1Yus07QCQQCb6I0Dr3Lmqpx.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -935,7 +935,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -952,7 +952,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/AtFhFTNbNo49qn7fkbo9lDtRkeR.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -969,7 +969,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/nimh1rrDDLhgpG8XAYoUZXHYwb6.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -986,7 +986,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/66VZu75VeLGc6tcAypqyGzWcPeN.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1003,7 +1003,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/sDFV9VEjwTUWF1s5sjOllsb70jk.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1020,7 +1020,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/A4R6u7SidBPVXMVzGSysCiRGTRz.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1037,7 +1037,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/fvnu6QHyR0gSV1JI6lMyXCny21a.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1054,7 +1054,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/y1MYZkwhZK6L0Jy4YMuPktzDOfn.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1071,7 +1071,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/9ZaGxvj1mqdKVLpSloq4mzS7SK6.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1088,7 +1088,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1105,7 +1105,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/yOnd3XQIg7JBmu0UuBjZyLdsxQD.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1122,7 +1122,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/ss5NcK2NWFg2YcKKYXLrk8q1myS.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1139,7 +1139,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
     "tags": [
       "Blu-ray",
       "Edição de aniversário"
@@ -1157,7 +1157,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/lx4kWcZc3o9PaNxlQpEJZM17XUI.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1174,7 +1174,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1191,7 +1191,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/ajjvpHJcO9TD45Y0aLZU5yBeW2G.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1208,7 +1208,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1225,7 +1225,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/fQZ3sLR1Fi63NMsNRbjm9q5qODJ.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1332,7 +1332,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://cinemasentries.com/wp-content/uploads/2023/03/The-Adventures-of-the-Wilderness-Family-Triple-Feature-DVD.jpg",
     "tags": [
       "Blu-ray",
       "Triple Feature"
@@ -1350,7 +1350,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/48T2EQe93dguK2pPCMELoP9upVP.jpg",
     "tags": [
       "Blu-ray",
       "Trilogia",
@@ -1369,7 +1369,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/6UUqnqTxDMBKeRx4CH4fBJFhhXf.jpg",
     "tags": [
       "Blu-ray",
       "Duplo"
@@ -1387,7 +1387,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1404,7 +1404,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/pgqj7QoBPWFLLKtLEpPmFYFRMgB.jpg",
     "tags": [
       "Blu-ray",
       "Edição especial",
