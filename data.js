@@ -56,14 +56,14 @@
     if(existing) Object.assign(existing,movie); else state.movies.push(movie); persistLocal(); await write("saveMovie",{movie}); return movie;
   }
   async function saveOffer(input) {
-    const now=new Date().toISOString();
+    const now=new Date().toISOString(), existing=input.id?state.offers.find(o=>o.id===input.id):null;
     const offer={
       id:input.id || (crypto.randomUUID?crypto.randomUUID():`${Date.now()}-${Math.random().toString(16).slice(2)}`), movieId:input.movieId,
       store:String(input.store||"").trim(), seller:String(input.seller||"").trim(), price:num(input.price), shipping:num(input.shipping), fees:num(input.fees),
       condition:input.condition||"", url:String(input.url||"").trim(), checkedAt:input.checkedAt||"", status:input.status||"active", notes:String(input.notes||"").trim(),
-      createdAt:input.createdAt||now, updatedAt:now
+      createdAt:existing?.createdAt||input.createdAt||now, updatedAt:now
     };
-    const existing=state.offers.find(o=>o.id===offer.id); if(existing) Object.assign(existing,offer); else state.offers.push(offer); persistLocal(); await write("saveOffer",{offer}); return offer;
+    if(existing) Object.assign(existing,offer); else state.offers.push(offer); persistLocal(); await write("saveOffer",{offer}); return offer;
   }
   async function markOwned(id) { const m=getMovie(id); if(!m)return; m.status="owned";m.updatedAt=new Date().toISOString();persistLocal();await write("saveMovie",{movie:m}); }
   async function toggleOffer(id) { const o=state.offers.find(x=>x.id===id);if(!o)return;o.status=o.status==="active"?"ended":"active";o.updatedAt=new Date().toISOString();persistLocal();await write("saveOffer",{offer:o}); }
