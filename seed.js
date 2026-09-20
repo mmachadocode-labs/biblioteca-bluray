@@ -323,7 +323,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://images.static-bluray.com/movies/covers/144379_medium.jpg?t=1447812662",
+    "coverUrl": "https://image.tmdb.org/t/p/original/5Xsu2o5IsZRuuxCEVZ9nVve21FP.jpg",
     "tags": [
       "Blu-ray",
       "Trilogia",
@@ -938,7 +938,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://i.ebayimg.com/images/g/8ocAAOSwp6xmQWN1/s-l1200.jpg",
+    "coverUrl": "https://static.wikia.nocookie.net/cirquedusoleil/images/6/64/Corteo-444-1.png/revision/latest?cb=20190624163631",
     "tags": [
       "Blu-ray"
     ],
@@ -1023,7 +1023,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://img.travessa.com.br/DVD/GR/ec/ecc7d70e-bca9-4928-8393-f6e68bd96443.jpg",
+    "coverUrl": "https://image.tmdb.org/t/p/original/2ZqBcpueADR7HJsPkbDLngAE8d3.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1159,7 +1159,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://www.famdvd.com.br/media/tmp/webp/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/b/l/blu-ray_cidad_o_kane_jpg.webp",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/ca79145ef72786357e602a0c9df8a58a34017410f8cbbe6ebd77cd20b3f3685c.jpg",
     "tags": [
       "Blu-ray",
       "Edição de aniversário"
@@ -1405,7 +1405,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://cinemasentries.com/wp-content/uploads/2023/03/The-Adventures-of-the-Wilderness-Family-Triple-Feature-DVD.jpg",
+    "coverUrl": "https://image.tmdb.org/t/p/original/qKNmWtEQE87cSOS5gKlcEJlnb8q.jpg",
     "tags": [
       "Blu-ray",
       "Triple Feature"
