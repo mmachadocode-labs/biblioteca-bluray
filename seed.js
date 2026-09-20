@@ -90,60 +90,6 @@ window.BIBLIOTECA_SEED = [
     "updatedAt": "2026-09-19T21:54:00-03:00"
   },
   {
-    "id": "wilderness-family-1",
-    "title": "Wilderness Family 1",
-    "year": 1975,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [
-      "DVD",
-      "Compactado"
-    ],
-    "notes": "Preço registrado na planilha antiga: R$ 21,20.",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "wilderness-family-2",
-    "title": "Wilderness Family 2",
-    "year": 1978,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [
-      "DVD",
-      "Compactado"
-    ],
-    "notes": "Preço registrado na planilha antiga: R$ 21,20.",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "wilderness-family-3",
-    "title": "Wilderness Family 3",
-    "year": 1979,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "",
-    "tags": [
-      "DVD",
-      "Compactado"
-    ],
-    "notes": "Preço registrado na planilha antiga: R$ 21,19.",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
     "id": "60-segundos",
     "title": "60 Segundos",
     "year": 2000,
@@ -1438,5 +1384,23 @@ window.BIBLIOTECA_SEED = [
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
     "updatedAt": "2026-09-19T21:54:00-03:00"
+  },
+  {
+    "id": "wilderness-family-triple-feature",
+    "title": "The Adventures of the Wilderness Family Triple Feature",
+    "year": "",
+    "status": "owned",
+    "category": "filmes",
+    "priority": "",
+    "targetPrice": 0,
+    "limitPrice": 0,
+    "coverUrl": "",
+    "tags": [
+      "Blu-ray",
+      "Triple Feature"
+    ],
+    "notes": "Edição com os três filmes da série Wilderness Family.",
+    "createdAt": "2026-09-20T02:54:12.761Z",
+    "updatedAt": "2026-09-20T02:54:12.761Z"
   }
 ];
