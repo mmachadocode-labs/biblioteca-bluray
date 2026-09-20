@@ -1000,19 +1000,19 @@ window.BIBLIOTECA_SEED = [
   {
     "id": "o-grande-gatsby",
     "title": "O Grande Gatsby",
-    "year": 2013,
+    "year": 1974,
     "status": "owned",
     "category": "filmes",
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/21c1914c5603ca3c62a0ed74ce031ef7c75a5491b00cebcbd83ca339b0ac8271.jpg",
+    "coverUrl": "https://image.tmdb.org/t/p/original/qmy6Iz0q5xTCYNFrPvqxx1gw5d7.jpg",
     "tags": [
       "Blu-ray"
     ],
     "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T04:26:20.941Z"
   },
   {
     "id": "o-noivo-da-minha-melhor-amiga",
@@ -1041,23 +1041,6 @@ window.BIBLIOTECA_SEED = [
     "targetPrice": 0,
     "limitPrice": 0,
     "coverUrl": "https://m.media-amazon.com/images/M/MV5BMTEzY2Y5YjctYjU1MS00NjEzLTkwZjItY2E0MmFiZTgyZmVhXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
-    "tags": [
-      "Blu-ray"
-    ],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "onze-homens-e-um-segredo",
-    "title": "Onze Homens e um Segredo",
-    "year": 1960,
-    "status": "owned",
-    "category": "filmes",
-    "priority": "",
-    "targetPrice": 0,
-    "limitPrice": 0,
-    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/124a6ed86b919b290db521fe63a17180ed863580f6683b7c8e08ac8228a17e2a.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1257,21 +1240,6 @@ window.BIBLIOTECA_SEED = [
     "id": "no-coracao-do-mar",
     "title": "No Coração do Mar",
     "year": 2015,
-    "status": "wanted",
-    "category": "filmes",
-    "priority": "alta",
-    "targetPrice": 45,
-    "limitPrice": 65,
-    "coverUrl": "",
-    "tags": [],
-    "notes": "",
-    "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
-  },
-  {
-    "id": "o-grande-gatsby-2",
-    "title": "O Grande Gatsby",
-    "year": 1974,
     "status": "wanted",
     "category": "filmes",
     "priority": "alta",
