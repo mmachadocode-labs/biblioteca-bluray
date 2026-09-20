@@ -98,7 +98,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://pics.filmaffinity.com/Gone_in_60_Seconds-683049691-large.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -115,7 +115,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -132,7 +132,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/original/5BSEXwvi0xDC2CbMkZQ0LngaVOh.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -149,7 +149,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/8TmTkDpCTBzWvH7iX6gRqlElMeu.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -166,7 +166,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://sampi.net.br/dir-arquivo-imagem/2012/06/%7B20120629080113%7D_eradogelo4_6.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -183,7 +183,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://cineorna.com/wp-content/uploads/2016/05/A-Era-do-Gelo-O-Big-Bang-697x1024.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -200,7 +200,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 45,
     "limitPrice": 65,
-    "coverUrl": "",
+    "coverUrl": "https://comunidade-paulocuenca-cdn.s3.us-east-1.amazonaws.com/monthly_2022_07/1789211709_images%2824%29.jpeg.542298ed1818a4da8b6e70bf098cdd0b.jpeg",
     "tags": [
       "Blu-ray"
     ],
@@ -217,7 +217,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 45,
     "limitPrice": 65,
-    "coverUrl": "",
+    "coverUrl": "https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/18/03/19872827.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -234,7 +234,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/original/h8PEObIiYUo4wHGo2qgWge2wqzv.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -251,7 +251,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://ixbt.online/live/images/original/35/79/91/2024/11/23/b8a3e272b8.webp",
     "tags": [
       "Blu-ray"
     ],
@@ -268,7 +268,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://xl.movieposterdb.com/13_03/2012/454876/xl_454876_5f3dc835.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -285,7 +285,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/ea6uWDaT8o480EUtg42aw6fFNMx.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -302,7 +302,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMDA0NzdlYTgtYTRmNS00MzY0LWE4MDQtZDNhZGRkMjA5MzhiXkEyXkFqcGc%40._V1_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -319,7 +319,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.un.uniaodosherois.com.br/images/assuntos/856-bob-esponja-1-tb.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -336,7 +336,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://conteudo.imguol.com.br/c/entretenimento/35/2019/11/14/poster-de-bob-esponja-o-incrivel-resgate-1573755376311_v2_450x600.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -390,7 +390,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://media.senscritique.com/media/000007253780/0/deja_vu.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -407,7 +407,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/276b9fa2bb66589f86599cbcc75d01a0fa8bae6201b886c1b0c516276b6b67de.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -424,7 +424,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.querofilme.com.br/images/posters/t4x/755-forrest-gump-o-contador-de-historias-1.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -492,7 +492,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/242552466/s718/maze-runner-a-cura-mortal.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -509,7 +509,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://http2.mlstatic.com/D_NQ_NP_783533-MLA91303951615_082025-OO.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -526,7 +526,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 55,
     "limitPrice": 75,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/60f35f36578fe426ef560b30b43a363337284dcc236d641a874adc39e44fd67a.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -543,7 +543,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://4.bp.blogspot.com/-8CDgX8Gzh08/TWVphfG_1UI/AAAAAAAADUg/frHz_nNmIs4/s1600/Meu%2BMalvado%2BFavorito.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -560,7 +560,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BZTVkZGQ4MGQtYTZkOS00NGU0LTk0OTQtYjZiNmI1ZTEyZTM5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -577,7 +577,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/6z0KlRIrXfkgNz3IJOCAQxdVXAg.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -594,7 +594,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.universalpics.com.br/tl_files/content/movies/despicable_me_4/posters/02.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -611,7 +611,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BZjk1MWNlOGUtMDA5OS00OGMzLTllOTItYTg3Y2Y2ZDg3Yjg0XkEyXkFqcGc%40._V1_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -628,7 +628,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://i.pinimg.com/originals/87/b2/4d/87b24df27694b458d8e6f7387a085b37.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -645,7 +645,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/original/rEDM3hHOZnUXDiq8zv4LmAsS5hV.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -662,7 +662,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 45,
     "limitPrice": 65,
-    "coverUrl": "",
+    "coverUrl": "https://pbs.twimg.com/media/EJ0v6r3XUAUgDyE?format=jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -679,7 +679,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BMGRkMTEwMDItNWNlZi00MzUwLTk0MzgtMGFkMjc2NWZlMzE2XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -696,7 +696,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/302504271/s718/o-quinto-elemento.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -713,7 +713,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/original/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -730,7 +730,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BOGZjNTk1YzMtNWRiYi00YTE4LWJmMmEtY2ZiMzU0MjgyOWU2XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -747,7 +747,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/11433-cartaz.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -781,7 +781,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/126973240/s718/sociedade-dos-poetas-mortos.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -816,7 +816,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/b5c984356fa3923eb5bf94ad660f71b1a9c34fe38cfce4d82b8b0df6c19de237.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -833,7 +833,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.oficialhostgeek.com.br/wp-content/uploads/2021/06/zzzz-19-scaled.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -850,7 +850,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://cineorna.com/wp-content/uploads/2016/06/13235445_785746898229043_8602128671490887028_o-700x1024.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -867,7 +867,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://nerdlicious.com.br/wp-content/uploads/2025/11/truque-de-mestre-3-2.webp",
     "tags": [
       "Blu-ray"
     ],
@@ -901,7 +901,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.impawards.com/2009/posters/up_ver8_xlg.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -918,7 +918,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://br.web.img2.acsta.net/medias/nmedia/18/91/31/05/20139182.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1327,7 +1327,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 45,
     "limitPrice": 65,
-    "coverUrl": "",
+    "coverUrl": "https://3.bp.blogspot.com/-iZHB6T_3gy0/Vvfj3VcL61I/AAAAAAAADME/KadhnKDzkJY4F35Xxk7D4KZmsPMDYlLbQ/s1600/poster-de-no-coracao-do-mar-1449022543281_667x960.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1344,7 +1344,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "alta",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/f442b4e7f4fed8422df59dda76daa8ccd45bb759b5644ff8b69b65341b5878bc.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1361,7 +1361,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/302060026/s718/a-hioria-sem-fim.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1378,7 +1378,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://imagens.publicocdn.com/imagens.aspx/432246?tp=KM",
     "tags": [
       "Blu-ray"
     ],
@@ -1395,7 +1395,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.cinematerial.com/p/500x/xcv4wbaf/oceans-eleven-brazilian-movie-cover.jpg?v=1648489449",
     "tags": [
       "Blu-ray"
     ],
@@ -1551,7 +1551,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Jlqv5VpNxEzgcdm5jNHEDqOKdt.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1568,7 +1568,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/207102484/s718/querida-estiquei-o-bebe.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1585,7 +1585,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/nbU3UgIjxNTrSSe2gcOSGQjf55a.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1602,7 +1602,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://2.bp.blogspot.com/-vzOX_rDX3-Y/WVRY7k_GkRI/AAAAAAAB95A/tssAPG8zjogMzlB3sUe3W7rsKEQWyxYhACLcBGAs/s1600/Hist%25C3%25B3ria%2BSem%2BFim%2BBastian%2BBalthazar%2BBux%252C%2BAtreyu%252C%2BDie%2Bunendliche%2BGeschichte.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1619,7 +1619,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/sNrhjAoPJ9hnsivJva9QTttmwvy.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1636,7 +1636,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/0695841af9e25f6ae1b4bca24199fdd3b1e3b6833d6c9e88f6410ba2b916e8b5.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1653,7 +1653,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.static-bluray.com/products/20/15235_1_large.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1670,7 +1670,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BODc4ODQ4ZGQtNjlhNy00YmRhLTgxZGUtM2U0MTgyMzI5NzJiXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1687,7 +1687,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://1263469901.rsc.cdn77.org/images/2023/09/01/219045___external_file_4397192870325365636.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1704,7 +1704,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/f320bf336137ae5ae6fb4a1ca50748ac69cbbf178c1aa534ab93b4ad58679482.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1721,7 +1721,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/9bef8c075f68e1657ab8a10e390b602e8b3e0bf23815965272a5eb633ab9708a.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1738,7 +1738,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/bltaa6b921bb1c8acc1/691c861e3e51b0e37b6e0e25/BeethovensChristmasAdventure_Poster_2000x3000_uaa.jpg?width=2560",
     "tags": [
       "Blu-ray"
     ],
@@ -1755,7 +1755,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNjc0MTI3ZmItMWZhNS00MTFmLTkzZDktNTM2ODUyMWIyOGI0XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1772,7 +1772,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://2.bp.blogspot.com/-vAclpplJoiY/U9QIFpMy-RI/AAAAAAAAIDQ/6HbSa2NcUvc/s1600/E.T..jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1789,7 +1789,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.cinebelasartes.com.br/wp-content/uploads/2018/09/edward-min-400x600.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1806,7 +1806,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/original/6aYqgBePv3s654B7C7WAO6HnCBg.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1823,7 +1823,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNGE2YTMwMzEtNjUxNy00ZmU0LWI0MzEtYTU5MTg4OWEyMDk3XkEyXkFqcGc%40._V1_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1840,7 +1840,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/207249995/s718/esqueceram-de-mim-3.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1857,7 +1857,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/162388515/s718/sozinho-em-casa-4.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1874,7 +1874,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/162337051/s718/sozinho-em-casa-5.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1891,7 +1891,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/254220761/s718/home-sweet-home-alone.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1908,7 +1908,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://www.originalfilmart.com/cdn/shop/files/FreeWilly_1993_original_film_art_5000x.webp?v=1684537800",
     "tags": [
       "Blu-ray"
     ],
@@ -1925,7 +1925,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/S/pv-target-images/787ace053b2e4317cd791f1f5f8bf62c9b035509196a888b737b519e0f97e468._UR2000%2C3000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1942,7 +1942,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/c5ADbz5BVaL1dBYLqaHvVCEag73.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1959,7 +1959,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://es.web.img3.acsta.net/pictures/17/11/14/11/36/2919058.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1976,7 +1976,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://m.media-amazon.com/images/M/MV5BNDRiNTQyMWMtNDVhOS00OTkxLTk4NzUtMzBlNDlmNDRjNjgxXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1993,7 +1993,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "",
+    "coverUrl": "https://images.justwatch.com/poster/319711745/s718/meu-primeiro-amor-parte-2.jpg",
     "tags": [
       "Blu-ray"
     ],
