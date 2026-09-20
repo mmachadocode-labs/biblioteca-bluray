@@ -325,3 +325,59 @@ select { padding: 0 12px; }
     white-space: normal;
   }
 }
+
+/* Cards mais compactos para exibir 10–15 títulos por tela */
+.movie-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px 14px;
+}
+
+.cover {
+  aspect-ratio: 3 / 4;
+}
+
+.cover-fallback {
+  padding: 13px;
+}
+
+.cover-fallback strong {
+  font-size: 17px;
+}
+
+.movie-meta {
+  padding-top: 8px;
+}
+
+.movie-meta h3 {
+  font-size: 14px;
+}
+
+.movie-meta-row {
+  margin-top: 3px;
+  font-size: 9px;
+}
+
+@media (min-width: 1500px) {
+  .movie-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1020px) {
+  .movie-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
