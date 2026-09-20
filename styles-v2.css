@@ -639,3 +639,49 @@ select { padding: 0 12px; }
     grid-row: 1 !important;
   }
 }
+
+/* Filtros + adicionar: no mobile o botão entra ao lado de "Todos" */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-row .subfilters {
+  flex: 1;
+}
+
+.add-inline-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .filter-row {
+    margin-top: 8px;
+    align-items: center;
+  }
+
+  .filter-row .subfilters {
+    margin-top: 0;
+    flex-wrap: nowrap;
+  }
+
+  .add-inline-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 999px;
+    border-color: var(--gold-dark);
+    color: var(--gold);
+    background: rgba(200,170,99,.06);
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .toolbar > .add-movie-btn {
+    display: none;
+  }
+}
