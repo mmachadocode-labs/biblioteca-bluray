@@ -8,7 +8,7 @@
   function exportJson(){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),movies:S.movies,offers:S.offers},null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`biblioteca-bluray-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href);}
   document.addEventListener("click",e=>{
     const close=e.target.closest("[data-close]");if(close){$(`#${close.dataset.close}`).close();return;}
-    const view=e.target.closest("[data-view]");if(view){S.view=view.dataset.view;S.category="all";U.render();return;}
+    const view=e.target.closest("[data-view]");if(view){S.view=view.dataset.view;S.category="filmes";U.render();return;}
     const cat=e.target.closest("[data-category]");if(cat){S.category=cat.dataset.category;U.render();return;}
     const card=e.target.closest("[data-movie-id]");if(card&&!e.target.closest("button,a")){U.openMovie(card.dataset.movieId);return;}
     const a=e.target.closest("[data-action]");if(!a)return;const id=a.dataset.id;
