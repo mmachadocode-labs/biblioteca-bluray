@@ -904,7 +904,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/avioes.jpg",
+    "coverUrl": "https://conteudo.imguol.com.br/c/entretenimento/2013/09/12/cartaz-oficial-em-portugues-da-animacao-avioes-de-klay-hall-com-vozes-de-dane-cook-e-teri-hatcher---poster-nacional-1378967936881_1313x1920.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1228,7 +1228,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "baixa",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://cinema10.com.br/upload/upload/image/As-Aventuras-de-Tintim-Poster.jpg",
+    "coverUrl": "https://image.tmdb.org/t/p/original/lp1qhs2CYfVg9gEjU44KbEia0ub.jpg",
     "tags": [
       "Blu-ray"
     ],
@@ -1354,7 +1354,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/angry-birds-toons-t1-vol-2.jpg",
+    "coverUrl": "https://bluraymania.com/cdn/shop/products/zlye-ptichki-angry-birds-toons-sezon-1-tom-2-angl-yazyk-blu-ray-936808.jpg?v=1741694854",
     "tags": [
       "Blu-ray"
     ],
@@ -1388,7 +1388,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://mmachadocode-labs.github.io/biblioteca-bluray/covers/legacy/max-o-cao-heroi.jpg",
+    "coverUrl": "https://www.motifri.com/wp-content/uploads/2015/06/Max-Poster.jpg",
     "tags": [
       "Blu-ray"
     ],
