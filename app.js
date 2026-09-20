@@ -30,6 +30,6 @@
   ["price","shipping","fees"].forEach(n=>$("#offer-form").elements[n].addEventListener("input",U.offerPreview));
   $("#settings-form").addEventListener("submit",async e=>{e.preventDefault();D.saveSettings({apiUrl:e.currentTarget.elements.apiUrl.value.trim(),apiToken:e.currentTarget.elements.apiToken.value});U.syncStatus(S.settings.apiUrl?"Configuração salva. Testando conexão...":"Modo local ativado.");if(S.settings.apiUrl)await sync(false);else U.toast("Configuração salva.");});
   $("#import-json").addEventListener("change",async e=>{const file=e.target.files?.[0];if(!file)return;try{D.replaceLocal(JSON.parse(await file.text()));U.render();U.toast("Backup importado.");}catch(err){U.toast(err.message);}e.target.value="";});
-  $$("dialog").forEach(dialog=>dialog.addEventListener("click",e=>{const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}));
+  $("dialog").forEach(dialog=>dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();}));
   U.render();if(S.settings.apiUrl)sync(false);
 })();
