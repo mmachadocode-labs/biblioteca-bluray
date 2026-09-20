@@ -2,462 +2,143 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Biblioteca pessoal de filmes em Blu-ray de Maurício.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Biblioteca pessoal de Blu-rays com coleção, lista de desejos e pesquisa de preços.">
+  <meta name="theme-color" content="#0a0a09">
   <title>Biblioteca Blu-ray</title>
-  <style>
-    :root {
-      --ink: #080807;
-      --paper: #f0eadf;
-      --muted: #a9a296;
-      --gold: #c6a75f;
-      --gold-soft: #8c7440;
-      --line: #2a2822;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: var(--ink);
-      color: var(--paper);
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    button, input { font: inherit; }
-
-    .site-header {
-      position: relative;
-      z-index: 10;
-      width: min(1240px, calc(100% - 48px));
-      height: 90px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(198, 167, 95, .22);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      color: var(--paper);
-      text-decoration: none;
-      font: 20px Georgia, "Times New Roman", serif;
-      letter-spacing: .02em;
-    }
-
-    .brand em { color: var(--gold); font-style: normal; }
-    .brand-mark {
-      display: grid;
-      place-items: center;
-      width: 34px;
-      height: 34px;
-      border: 1px solid var(--gold);
-      border-radius: 50%;
-      color: var(--gold);
-      font-size: 17px;
-    }
-
-    .sheet-link {
-      color: var(--gold);
-      text-decoration: none;
-      font-size: 12px;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-
-    .hero {
-      position: relative;
-      overflow: hidden;
-      min-height: 575px;
-      padding: 108px max(24px, calc((100% - 1240px) / 2));
-      border-bottom: 1px solid var(--line);
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      opacity: .17;
-      background-image: radial-gradient(rgba(255, 255, 255, .14) .5px, transparent .5px);
-      background-size: 5px 5px;
-    }
-
-    .hero-glow {
-      position: absolute;
-      width: 760px;
-      height: 760px;
-      right: -170px;
-      top: -320px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(178, 134, 55, .18), rgba(8, 8, 7, 0) 66%);
-    }
-
-    .hero-copy { position: relative; z-index: 1; max-width: 880px; }
-    .eyebrow {
-      margin: 0 0 22px;
-      color: var(--gold);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .26em;
-      text-transform: uppercase;
-    }
-
-    h1, h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
-    h1 {
-      max-width: 900px;
-      font-size: clamp(49px, 6.3vw, 88px);
-      line-height: .98;
-      letter-spacing: -.045em;
-    }
-
-    h1 span { color: var(--gold); font-style: italic; }
-    .intro {
-      max-width: 650px;
-      margin: 30px 0 0;
-      color: var(--muted);
-      font: 18px/1.7 Georgia, "Times New Roman", serif;
-    }
-
-    .stats {
-      position: relative;
-      z-index: 1;
-      display: grid;
-      grid-template-columns: repeat(4, minmax(120px, 170px));
-      gap: 26px;
-      margin-top: 60px;
-    }
-
-    .stats div { border-left: 1px solid var(--gold-soft); padding-left: 18px; }
-    .stats strong { display: block; font: 34px/1 Georgia, serif; }
-    .stats span {
-      display: block;
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 10px;
-      letter-spacing: .14em;
-      text-transform: uppercase;
-    }
-
-    .catalog {
-      width: min(1240px, calc(100% - 48px));
-      margin: 0 auto;
-      padding: 92px 0 110px;
-    }
-
-    .catalog-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 32px;
-    }
-
-    .catalog-heading .eyebrow { margin-bottom: 12px; }
-    h2 { font-size: clamp(39px, 5vw, 62px); }
-    .search {
-      width: min(390px, 100%);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 4px 12px;
-      border-bottom: 1px solid #4b473d;
-      color: var(--gold);
-    }
-
-    .search input {
-      width: 100%;
-      border: 0;
-      outline: 0;
-      color: var(--paper);
-      background: transparent;
-      font-size: 14px;
-    }
-
-    .search input::placeholder { color: #706b61; }
-    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 42px; }
-    .filters button {
-      cursor: pointer;
-      padding: 10px 16px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      color: var(--muted);
-      background: transparent;
-      font-size: 12px;
-      transition: .2s ease;
-    }
-
-    .filters button:hover { color: var(--paper); border-color: var(--gold-soft); }
-    .filters button.active { color: #0b0a07; border-color: var(--gold); background: var(--gold); }
-    .results { margin: 28px 0 16px; color: #716c62; font-size: 12px; letter-spacing: .08em; }
-    .movie-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 30px 18px; }
-    .movie-card { min-width: 0; }
-    .poster {
-      position: relative;
-      isolation: isolate;
-      aspect-ratio: 2 / 3;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
-      padding: 20px 17px;
-      border: 1px solid rgba(198, 167, 95, .2);
-      background:
-        linear-gradient(to top, rgba(0, 0, 0, .9), transparent 70%),
-        radial-gradient(circle at 65% 20%, #57492e, #171611 48%, #090908 85%);
-      box-shadow: 0 14px 36px rgba(0, 0, 0, .22);
-    }
-
-    .poster::before, .poster::after {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      border: 1px solid rgba(215, 187, 115, .16);
-      border-radius: 50%;
-    }
-
-    .poster::before { width: 170px; height: 170px; top: -45px; right: -65px; }
-    .poster::after { width: 110px; height: 110px; top: -15px; right: -35px; }
-    .poster-1 { background: linear-gradient(to top, rgba(0,0,0,.92), transparent 70%), radial-gradient(circle at 60% 22%, #384a4a, #141918 50%, #080909 85%); }
-    .poster-2 { background: linear-gradient(to top, rgba(0,0,0,.92), transparent 70%), radial-gradient(circle at 60% 22%, #4b3437, #181012 50%, #080707 85%); }
-    .poster-3 { background: linear-gradient(to top, rgba(0,0,0,.92), transparent 70%), radial-gradient(circle at 60% 22%, #303e59, #11151e 50%, #07080b 85%); }
-    .poster-4 { background: linear-gradient(to top, rgba(0,0,0,.92), transparent 70%), radial-gradient(circle at 60% 22%, #56462e, #1b1710 50%, #080706 85%); }
-    .poster-5 { background: linear-gradient(to top, rgba(0,0,0,.92), transparent 70%), radial-gradient(circle at 60% 22%, #384232, #131711 50%, #070807 85%); }
-    .reel { position: absolute; top: 18px; left: 17px; color: rgba(198,167,95,.56); font-size: 9px; }
-    .poster-title { font: 20px/1.08 Georgia, serif; text-wrap: balance; }
-    .poster-year { margin-top: 9px; color: var(--gold); font-size: 10px; letter-spacing: .18em; }
-    .movie-info {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 12px;
-      padding-top: 13px;
-    }
-
-    .movie-info h3 { overflow: hidden; margin: 0; color: #ded7ca; font: 15px/1.3 Georgia, serif; }
-    .movie-info p { margin: 5px 0 0; color: #777168; font-size: 11px; }
-    .status {
-      display: inline-block;
-      padding: 5px 8px;
-      border: 1px solid #34312a;
-      border-radius: 999px;
-      color: #8c867c;
-      font-size: 9px;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .status-compactado { color: #98b2a5; border-color: #395044; }
-    .status-tenho { color: var(--gold); border-color: #574a2d; }
-    .empty { padding: 80px 0; text-align: center; color: var(--muted); }
-    footer {
-      width: min(1240px, calc(100% - 48px));
-      margin: 0 auto;
-      padding: 35px 0 50px;
-      display: flex;
-      justify-content: space-between;
-      border-top: 1px solid var(--line);
-      color: #6d685f;
-      font-size: 11px;
-    }
-
-    footer span { color: var(--gold); font-family: Georgia, serif; }
-    footer p { margin: 0; }
-
-    @media (max-width: 980px) {
-      .movie-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    }
-
-    @media (max-width: 760px) {
-      .site-header { width: min(100% - 32px, 1240px); height: 74px; }
-      .sheet-link { font-size: 10px; }
-      .hero { min-height: auto; padding: 78px 20px 70px; }
-      .stats { grid-template-columns: repeat(2, 1fr); gap: 24px 10px; }
-      .catalog { width: min(100% - 32px, 1240px); padding: 70px 0 90px; }
-      .catalog-heading { align-items: stretch; flex-direction: column; }
-      .search { width: 100%; }
-      .movie-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-      footer { width: min(100% - 32px, 1240px); }
-    }
-
-    @media (max-width: 520px) {
-      h1 { font-size: 47px; }
-      .brand { font-size: 17px; }
-      .brand-mark { width: 30px; height: 30px; }
-      .hero { padding-top: 62px; }
-      .intro { font-size: 16px; }
-      .stats strong { font-size: 29px; }
-      .movie-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 12px; }
-      .poster { padding: 16px 13px; }
-      .poster-title { font-size: 17px; }
-      footer { gap: 20px; flex-direction: column; }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="Biblioteca Blu-ray">
-        <span class="brand-mark" aria-hidden="true">B</span>
-        <span>Biblioteca <em>Blu-ray</em></span>
-      </a>
-      <a class="sheet-link" href="https://docs.google.com/spreadsheets/d/1UNDyes69Lq0ZiHc3f49pzzD-tWeNL3XtO6ZKDi77FrU/edit" target="_blank" rel="noreferrer">Ver planilha</a>
-    </header>
+  <header class="topbar">
+    <a class="brand" href="#" data-action="home" aria-label="Biblioteca Blu-ray">
+      <span class="brand-mark">B</span>
+      <span>Biblioteca <em>Blu-ray</em></span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" type="button" data-action="sync" title="Sincronizar" aria-label="Sincronizar">↻</button>
+      <button class="icon-btn" type="button" data-action="settings" title="Configurações" aria-label="Configurações">⚙</button>
+    </div>
+  </header>
 
-    <section class="hero" id="inicio">
-      <div class="hero-glow"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Acervo pessoal de Maurício</p>
-        <h1>Filmes que merecem<br>ser vistos <span>novamente.</span></h1>
-        <p class="intro">Uma biblioteca construída pelo gosto pelos filmes — sem foco em edições de colecionador, apenas histórias que vale a pena guardar.</p>
+  <main class="shell">
+    <section class="intro-panel">
+      <div>
+        <p class="eyebrow">Acervo pessoal</p>
+        <h1>Biblioteca Blu-ray</h1>
+        <p class="subtitle">Coleção, lista de desejos e referência de preços em um só lugar.</p>
       </div>
-      <div class="stats" aria-label="Resumo do acervo">
-        <div><strong id="total-count">0</strong><span>filmes listados</span></div>
-        <div><strong id="owned-count">0</strong><span>na coleção</span></div>
-        <div><strong id="compacted-count">0</strong><span>compactados</span></div>
-        <div><strong id="wanted-count">0</strong><span>para comprar</span></div>
+      <div class="summary" aria-label="Resumo">
+        <div><strong id="count-owned">0</strong><span>na coleção</span></div>
+        <div><strong id="count-wanted">0</strong><span>quero comprar</span></div>
+        <div><strong id="count-offers">0</strong><span>ofertas ativas</span></div>
       </div>
     </section>
 
-    <section class="catalog" aria-labelledby="catalog-title">
-      <div class="catalog-heading">
-        <div>
-          <p class="eyebrow">Catálogo</p>
-          <h2 id="catalog-title">A coleção</h2>
-        </div>
-        <label class="search">
-          <span aria-hidden="true">⌕</span>
-          <input id="search" type="search" placeholder="Buscar por título ou ano" aria-label="Buscar por título ou ano">
+    <section class="toolbar-card">
+      <nav class="tabs" aria-label="Seções">
+        <button class="tab active" type="button" data-view="owned">Coleção</button>
+        <button class="tab" type="button" data-view="wanted">Quero comprar</button>
+      </nav>
+      <div class="toolbar">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="search" type="search" placeholder="Buscar filme..." autocomplete="off">
         </label>
+        <select id="sort" aria-label="Ordenar">
+          <option value="title">Título A–Z</option>
+          <option value="year-desc">Ano mais recente</option>
+          <option value="recent">Adicionados recentemente</option>
+          <option value="priority">Prioridade</option>
+          <option value="best-price">Melhor preço</option>
+        </select>
+        <button class="primary-btn" type="button" data-action="add-movie">+ Filme</button>
       </div>
-      <div class="filters" aria-label="Filtrar filmes">
-        <button class="active" type="button" data-filter="Todos">Todos</button>
-        <button type="button" data-filter="Na coleção">Na coleção</button>
-        <button type="button" data-filter="Compactados">Compactados</button>
-        <button type="button" data-filter="Quero comprar">Quero comprar</button>
-      </div>
-      <p class="results" id="results" aria-live="polite"></p>
-      <div class="movie-grid" id="movie-grid"></div>
-      <p class="empty" id="empty" hidden>Nenhum filme encontrado.</p>
+      <div class="subfilters" id="subfilters"></div>
+      <p class="results-line" id="results-line"></p>
     </section>
 
-    <footer>
-      <span>Biblioteca Blu-ray</span>
-      <p>Feita para guardar boas histórias.</p>
-    </footer>
+    <section class="movie-grid" id="movie-grid" aria-live="polite"></section>
+    <p class="empty-state" id="empty-state" hidden>Nenhum filme encontrado.</p>
   </main>
 
-  <script>
-    const movies = [
-      ["Curtindo a Vida Adoidado",1986,"Compactado","Blu-ray"],["Os Goonies",1985,"Compactado","Blu-ray"],
-      ["Star Trek (2009)",2009,"Compactado","Blu-ray"],["Star Trek: Além da Escuridão",2013,"Compactado","Blu-ray"],
-      ["Uma Babá Quase Perfeita",1993,"Compactado","Blu-ray"],["Wilderness Family 1",1975,"Compactado","DVD","R$ 21,20"],
-      ["Wilderness Family 2",1978,"Compactado","DVD","R$ 21,20"],["Wilderness Family 3",1979,"Compactado","DVD","R$ 21,19"],
-      ["60 Segundos",2000,"Quero comprar"],["A Era do Gelo",2002,"Quero comprar"],["A Era do Gelo 2",2006,"Quero comprar"],
-      ["A Era do Gelo 3",2009,"Quero comprar"],["A Era do Gelo 4",2012,"Quero comprar"],["A Era do Gelo: O Big Bang",2016,"Quero comprar"],
-      ["A Invenção de Hugo Cabret",2011,"Quero comprar"],["A Rede",1995,"Quero comprar"],["A Vida é Bela",1997,"Quero comprar"],
-      ["A Vida Secreta de Walter Mitty",2013,"Quero comprar"],["As Aventuras de Pi",2012,"Quero comprar"],
-      ["Bob Esponja - O Filme",2004,"Quero comprar"],["Bob Esponja - Um Herói Fora D'Água",2015,"Quero comprar"],
-      ["Bob Esponja: Em Busca da Calça Quadrada",2025,"Quero comprar"],["Bob Esponja: O Incrível Resgate",2020,"Quero comprar"],
-      ["De Volta para o Futuro",1985,"Quero comprar"],["De Volta para o Futuro II",1989,"Quero comprar"],
-      ["De Volta para o Futuro III",1990,"Quero comprar"],["Déjà Vu",2006,"Quero comprar"],
-      ["Doze Homens e Outro Segredo",2004,"Quero comprar"],["Forrest Gump",1994,"Quero comprar"],["Gravidade",2013,"Quero comprar"],
-      ["Interestelar",2014,"Quero comprar"],["Intocáveis",2011,"Quero comprar"],["Maze Runner: A Cura Mortal",2018,"Quero comprar"],
-      ["Maze Runner: Prova de Fogo",2015,"Quero comprar"],["Mestre dos Mares: O Lado Mais Distante do Mundo",2003,"Quero comprar"],
-      ["Meu Malvado Favorito",2010,"Quero comprar"],["Meu Malvado Favorito 2",2013,"Quero comprar"],
-      ["Meu Malvado Favorito 3",2017,"Quero comprar"],["Meu Malvado Favorito 4",2024,"Quero comprar"],["Minions",2015,"Quero comprar"],
-      ["Minions 2: A Origem de Gru",2022,"Quero comprar"],["Monstros S.A.",2001,"Quero comprar"],
-      ["O Chamado da Floresta",2020,"Quero comprar"],["O Enigma da Pirâmide",1985,"Quero comprar"],["O Quinto Elemento",1997,"Quero comprar"],
-      ["Onze Homens e um Segredo",2001,"Quero comprar"],["Os Incríveis",2004,"Quero comprar"],["Os Incríveis 2",2018,"Quero comprar"],
-      ["Os Pinguins de Madagascar",2014,"Quero comprar"],["Reino de Fogo",2002,"Quero comprar"],
-      ["Sociedade dos Poetas Mortos",1989,"Quero comprar"],["Tá Chovendo Hambúrguer",2009,"Quero comprar"],
-      ["Treze Homens e um Novo Segredo",2007,"Quero comprar"],["Truque de Mestre",2013,"Quero comprar"],
-      ["Truque de Mestre: O 2º Ato",2016,"Quero comprar"],["Truque de Mestre: O 3º Ato",2025,"Quero comprar"],
-      ["Universidade Monstros",2013,"Quero comprar"],["Up: Altas Aventuras",2009,"Quero comprar"],["WALL-E",2008,"Quero comprar"],
-      ["Whiplash: Em Busca da Perfeição",2014,"Quero comprar"],["A Lenda dos Guardiões",2010,"Tenho","Blu-ray"],
-      ["A Origem",2010,"Tenho","Blu-ray"],["Aviões",2013,"Tenho","Blu-ray"],["Compramos um Zoológico",2011,"Tenho","Blu-ray"],
-      ["Cirque du Soleil: Corteo",2006,"Tenho","Blu-ray"],["John Carter: Entre Dois Mundos",2012,"Tenho","Blu-ray","R$ 29,90"],
-      ["Maze Runner: Correr ou Morrer",2014,"Tenho","Blu-ray","R$ 29,90"],["O Espetacular Homem-Aranha",2012,"Tenho","Blu-ray"],
-      ["O Grande Gatsby",2013,"Tenho","Blu-ray"],["O Grinch",2000,"Tenho","Blu-ray"],["O Noivo da Minha Melhor Amiga",2011,"Tenho","Blu-ray"],
-      ["Onde Vivem os Monstros",2009,"Tenho","Blu-ray"],["Onze Homens e um Segredo",1960,"Tenho","Blu-ray"],
-      ["Prenda-me se For Capaz",2002,"Tenho","Blu-ray"],["Sherlock Holmes",2009,"Tenho","Blu-ray","R$ 29,90"],
-      ["Sherlock Holmes: O Jogo de Sombras",2011,"Tenho","Blu-ray","R$ 29,90"],["Star Trek II: A Ira de Khan",1982,"Tenho","Blu-ray"],
-      ["Star Trek IV: A Volta para Casa",1986,"Tenho","Blu-ray"],["Star Trek: Sem Fronteiras",2016,"Tenho","Blu-ray","R$ 40,00"],
-      ["Tá Chovendo Hambúrguer 2",2013,"Tenho","Blu-ray"]
-    ].map(([title, year, status, media, price]) => ({ title, year, status, media, price }));
+  <dialog class="modal" id="movie-modal">
+    <div class="modal-shell modal-wide">
+      <button class="close-btn" type="button" data-close="movie-modal" aria-label="Fechar">×</button>
+      <div id="movie-detail"></div>
+    </div>
+  </dialog>
 
-    const collator = new Intl.Collator("pt-BR");
-    let activeFilter = "Todos";
+  <dialog class="modal" id="movie-form-modal">
+    <div class="modal-shell">
+      <button class="close-btn" type="button" data-close="movie-form-modal" aria-label="Fechar">×</button>
+      <h2 id="movie-form-title">Adicionar filme</h2>
+      <form id="movie-form" class="form-grid">
+        <input type="hidden" name="id">
+        <label class="field field-wide"><span>Título</span><input name="title" required></label>
+        <label class="field"><span>Ano</span><input name="year" type="number" min="1888" max="2100"></label>
+        <label class="field"><span>Status</span><select name="status"><option value="owned">Tenho</option><option value="wanted">Quero comprar</option></select></label>
+        <label class="field"><span>Categoria</span><select name="category"><option value="filmes">Filmes</option><option value="infantil">Infantil</option></select></label>
+        <label class="field"><span>Prioridade</span><select name="priority"><option value="">—</option><option value="alta">Alta</option><option value="media">Média</option><option value="baixa">Baixa</option></select></label>
+        <label class="field"><span>Preço-alvo</span><input name="targetPrice" type="number" min="0" step="0.01"></label>
+        <label class="field"><span>Limite de compra</span><input name="limitPrice" type="number" min="0" step="0.01"></label>
+        <label class="field field-wide"><span>URL da capa</span><input name="coverUrl" type="url" placeholder="https://..."></label>
+        <label class="field field-wide"><span>Tags</span><input name="tags" placeholder="3D, importado, edição especial"></label>
+        <label class="field field-wide"><span>Observações</span><textarea name="notes" rows="3"></textarea></label>
+        <div class="form-actions field-wide">
+          <button class="secondary-btn" type="button" data-close="movie-form-modal">Cancelar</button>
+          <button class="primary-btn" type="submit">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
 
-    const grid = document.querySelector("#movie-grid");
-    const search = document.querySelector("#search");
-    const results = document.querySelector("#results");
-    const empty = document.querySelector("#empty");
-    const buttons = [...document.querySelectorAll("[data-filter]")];
+  <dialog class="modal" id="offer-modal">
+    <div class="modal-shell">
+      <button class="close-btn" type="button" data-close="offer-modal" aria-label="Fechar">×</button>
+      <h2>Adicionar oferta</h2>
+      <form id="offer-form" class="form-grid">
+        <input type="hidden" name="movieId">
+        <label class="field"><span>Loja / canal</span><input name="store" required placeholder="OLX, Mercado Livre..."></label>
+        <label class="field"><span>Vendedor</span><input name="seller"></label>
+        <label class="field"><span>Preço</span><input name="price" type="number" min="0" step="0.01" required></label>
+        <label class="field"><span>Frete</span><input name="shipping" type="number" min="0" step="0.01" value="0"></label>
+        <label class="field"><span>Taxas</span><input name="fees" type="number" min="0" step="0.01" value="0"></label>
+        <label class="field"><span>Condição</span><select name="condition"><option value="">—</option><option>Novo</option><option>Usado - excelente</option><option>Usado - bom</option><option>Usado - regular</option></select></label>
+        <label class="field field-wide"><span>Link</span><input name="url" type="url" placeholder="https://..."></label>
+        <label class="field"><span>Data consultada</span><input name="checkedAt" type="date"></label>
+        <label class="field"><span>Status</span><select name="status"><option value="active">Ativa</option><option value="ended">Encerrada</option><option value="purchased">Comprada</option></select></label>
+        <label class="field field-wide"><span>Observação</span><textarea name="notes" rows="3"></textarea></label>
+        <p class="offer-total-preview field-wide">Total: <strong id="offer-total-preview">R$ 0,00</strong></p>
+        <div class="form-actions field-wide">
+          <button class="secondary-btn" type="button" data-close="offer-modal">Cancelar</button>
+          <button class="primary-btn" type="submit">Salvar oferta</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
 
-    document.querySelector("#total-count").textContent = movies.length;
-    document.querySelector("#owned-count").textContent = movies.filter(movie => movie.status !== "Quero comprar").length;
-    document.querySelector("#compacted-count").textContent = movies.filter(movie => movie.status === "Compactado").length;
-    document.querySelector("#wanted-count").textContent = movies.filter(movie => movie.status === "Quero comprar").length;
+  <dialog class="modal" id="settings-modal">
+    <div class="modal-shell">
+      <button class="close-btn" type="button" data-close="settings-modal" aria-label="Fechar">×</button>
+      <h2>Dados e sincronização</h2>
+      <p class="modal-help">Sem uma API configurada, o site salva neste navegador. Para usar os mesmos dados no celular e no computador, conecte o Google Apps Script.</p>
+      <form id="settings-form" class="form-grid">
+        <label class="field field-wide"><span>URL do Apps Script</span><input name="apiUrl" type="url" placeholder="https://script.google.com/macros/s/.../exec"></label>
+        <label class="field field-wide"><span>Token de edição</span><input name="apiToken" type="password" autocomplete="off" placeholder="Salvo apenas neste navegador"></label>
+        <div class="form-actions field-wide">
+          <button class="secondary-btn" type="button" data-action="export-json">Exportar JSON</button>
+          <label class="secondary-btn file-btn">Importar JSON<input id="import-json" type="file" accept="application/json"></label>
+          <button class="secondary-btn" type="button" data-action="push-remote">Enviar dados locais</button>
+          <button class="primary-btn" type="submit">Salvar</button>
+        </div>
+      </form>
+      <p class="sync-status" id="sync-status"></p>
+    </div>
+  </dialog>
 
-    function matchesFilter(movie) {
-      if (activeFilter === "Na coleção") return movie.status === "Tenho" || movie.status === "Compactado";
-      if (activeFilter === "Compactados") return movie.status === "Compactado";
-      if (activeFilter === "Quero comprar") return movie.status === "Quero comprar";
-      return true;
-    }
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    function escapeHtml(value) {
-      return value.replace(/[&<>"']/g, character => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;"
-      })[character]);
-    }
-
-    function render() {
-      const query = search.value.trim().toLocaleLowerCase("pt-BR");
-      const visible = movies
-        .filter(matchesFilter)
-        .filter(movie => !query || `${movie.title} ${movie.year}`.toLocaleLowerCase("pt-BR").includes(query))
-        .sort((a, b) => collator.compare(a.title, b.title));
-
-      results.textContent = `${visible.length} ${visible.length === 1 ? "filme" : "filmes"}`;
-      empty.hidden = visible.length !== 0;
-      grid.innerHTML = visible.map((movie, index) => {
-        const statusClass = movie.status.toLocaleLowerCase("pt-BR").replace(" ", "-");
-        const media = movie.media ? ` · ${escapeHtml(movie.media)}` : "";
-        return `
-          <article class="movie-card">
-            <div class="poster poster-${index % 6}">
-              <span class="reel" aria-hidden="true">●</span>
-              <span class="poster-title">${escapeHtml(movie.title)}</span>
-              <span class="poster-year">${movie.year}</span>
-            </div>
-            <div class="movie-info">
-              <div>
-                <h3>${escapeHtml(movie.title)}</h3>
-                <p>${movie.year}${media}</p>
-              </div>
-              <span class="status status-${statusClass}">${escapeHtml(movie.status)}</span>
-            </div>
-          </article>
-        `;
-      }).join("");
-    }
-
-    search.addEventListener("input", render);
-    buttons.forEach(button => button.addEventListener("click", () => {
-      activeFilter = button.dataset.filter;
-      buttons.forEach(item => item.classList.toggle("active", item === button));
-      render();
-    }));
-
-    render();
-  </script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
