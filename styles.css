@@ -385,7 +385,7 @@ select { padding: 0 12px; }
 
 /* Composição completa das compras */
 .purchase-row {
-  grid-template-columns: minmax(140px,1.25fr) .75fr .65fr .65fr .8fr auto;
+  grid-template-columns: minmax(140px,1.25fr) .72fr .62fr .62fr .62fr .78fr auto;
 }
 
 @media (max-width: 760px) {
