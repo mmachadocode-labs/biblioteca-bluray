@@ -347,9 +347,9 @@ window.BIBLIOTECA_SEED = [
       "Blu-ray",
       "Duplo"
     ],
-    "notes": "Preço pago registrado no legacy: R$ 22,00.",
+    "notes": "",
     "createdAt": "2026-09-20T03:14:37.870Z",
-    "updatedAt": "2026-09-20T03:14:37.870Z"
+    "updatedAt": "2026-09-20T14:15:00.000Z"
   },
   {
     "id": "deja-vu",
@@ -409,9 +409,9 @@ window.BIBLIOTECA_SEED = [
     "tags": [
       "Blu-ray"
     ],
-    "notes": "Comprado por R$ 38,41.",
+    "notes": "",
     "createdAt": "2026-09-19T21:54:00-03:00",
-    "updatedAt": "2026-09-19T21:54:00-03:00"
+    "updatedAt": "2026-09-20T14:15:00.000Z"
   },
   {
     "id": "interestelar",
@@ -1446,8 +1446,8 @@ window.BIBLIOTECA_SEED = [
       "Edição especial",
       "Versátil"
     ],
-    "notes": "Preço pago registrado no legacy: R$ 89,93.",
+    "notes": "",
     "createdAt": "2026-09-20T03:22:29.936Z",
-    "updatedAt": "2026-09-20T03:22:29.936Z"
+    "updatedAt": "2026-09-20T14:15:00.000Z"
   }
 ];
