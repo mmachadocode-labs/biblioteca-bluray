@@ -4,7 +4,7 @@
   async function run(task,success){try{await task();U.render();U.detail();if(success)U.toast(success);}catch(e){U.toast(`Falha na nuvem: ${e.message}. Alteração mantida localmente.`);U.render();U.detail();}}
   async function sync(show=true){if(!S.settings.apiUrl){if(show)U.toast("Configure o Apps Script para sincronizar.");return;}U.syncStatus("Sincronizando...");try{await D.sync();U.render();U.detail();U.syncStatus(`Sincronizado em ${new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`);if(show)U.toast("Dados sincronizados.");}catch(e){U.syncStatus(`Falha: ${e.message}`);if(show)U.toast(`Falha ao sincronizar: ${e.message}`);}}
   function moviePayload(f){return{id:f.elements.id.value,title:f.elements.title.value,year:f.elements.year.value,status:f.elements.status.value,category:f.elements.category.value,priority:f.elements.priority.value,targetPrice:f.elements.targetPrice.value,limitPrice:f.elements.limitPrice.value,coverUrl:f.elements.coverUrl.value,tags:f.elements.tags.value.split(",").map(x=>x.trim()).filter(Boolean),notes:f.elements.notes.value};}
-  function offerPayload(f){return{movieId:f.elements.movieId.value,store:f.elements.store.value,seller:f.elements.seller.value,price:f.elements.price.value,shipping:f.elements.shipping.value,fees:f.elements.fees.value,condition:f.elements.condition.value,url:f.elements.url.value,checkedAt:f.elements.checkedAt.value,status:f.elements.status.value,notes:f.elements.notes.value};}
+  function offerPayload(f){return{id:f.elements.id.value,movieId:f.elements.movieId.value,store:f.elements.store.value,seller:f.elements.seller.value,price:f.elements.price.value,shipping:f.elements.shipping.value,fees:f.elements.fees.value,condition:f.elements.condition.value,url:f.elements.url.value,checkedAt:f.elements.checkedAt.value,status:f.elements.status.value,notes:f.elements.notes.value};}
   function exportJson(){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),movies:S.movies,offers:S.offers},null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`biblioteca-bluray-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href);}
   document.addEventListener("click",e=>{
     const close=e.target.closest("[data-close]");if(close){$(`#${close.dataset.close}`).close();return;}
@@ -15,6 +15,7 @@
     if(a.dataset.action==="add-movie")U.movieForm();
     if(a.dataset.action==="edit-movie")U.movieForm(id);
     if(a.dataset.action==="add-offer")U.offerForm(id,"offer");
+    if(a.dataset.action==="edit-offer")U.offerForm(null,"edit",id);
     if(a.dataset.action==="add-purchase")U.offerForm(id,"purchase");
     if(a.dataset.action==="mark-owned")run(()=>D.markOwned(id),"Movido para a coleção.");
     if(a.dataset.action==="end-offer")run(()=>D.toggleOffer(id));
