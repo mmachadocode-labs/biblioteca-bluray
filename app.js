@@ -19,6 +19,7 @@
     if(a.dataset.action==="add-purchase")U.offerForm(id,"purchase");
     if(a.dataset.action==="mark-owned")run(()=>D.markOwned(id),"Movido para a coleção.");
     if(a.dataset.action==="end-offer")run(()=>D.toggleOffer(id));
+    if(a.dataset.action==="delete-offer"&&confirm("Excluir esta oferta?"))run(()=>D.deleteOffer(id),"Oferta excluída.");
     if(a.dataset.action==="settings")U.settings();
     if(a.dataset.action==="sync")sync();
     if(a.dataset.action==="export-json")exportJson();
