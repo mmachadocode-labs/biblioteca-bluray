@@ -4,13 +4,15 @@
   const SEED_VERSION = String(window.BIBLIOTECA_SEED_VERSION || "0");
   const SETTINGS_KEY = "biblioteca-bluray-v2-settings";
   function normalizedTitle(v) { return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); }
-  function isUnwantedBeethoven(m) {
+  function isUnwantedMovie(m) {
     const t=normalizedTitle(m?.title);
-    return t.startsWith("beethoven") && t!=="beethoven o magnifico" && t!=="beethoven 2";
+    const unwantedBeethoven=t.startsWith("beethoven") && t!=="beethoven o magnifico" && t!=="beethoven 2";
+    const unwantedHomeAlone=t.startsWith("esqueceram de mim") && t!=="esqueceram de mim" && t!=="esqueceram de mim 2";
+    return unwantedBeethoven || unwantedHomeAlone;
   }
   function sanitizeState() {
-    const removedIds=new Set(state.movies.filter(isUnwantedBeethoven).map(m=>m.id));
-    state.movies=state.movies.filter(m=>!isUnwantedBeethoven(m));
+    const removedIds=new Set(state.movies.filter(isUnwantedMovie).map(m=>m.id));
+    state.movies=state.movies.filter(m=>!isUnwantedMovie(m));
     state.offers=state.offers.filter(o=>!removedIds.has(o.movieId));
     return removedIds.size;
   }
