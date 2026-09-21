@@ -3,7 +3,17 @@
   const STORAGE_KEY = "biblioteca-bluray-v2-data";
   const SEED_VERSION = String(window.BIBLIOTECA_SEED_VERSION || "0");
   const SETTINGS_KEY = "biblioteca-bluray-v2-settings";
-  const REMOVED_MOVIE_IDS = new Set(["beethoven-3-uma-familia-em-apuros","beethoven-4","beethoven-5","beethoven-a-corrida-para-a-fama","beethoven-aventura-de-natal","beethoven-e-o-tesouro-secreto"]);
+  function normalizedTitle(v) { return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); }
+  function isUnwantedBeethoven(m) {
+    const t=normalizedTitle(m?.title);
+    return t.startsWith("beethoven") && t!=="beethoven o magnifico" && t!=="beethoven 2";
+  }
+  function sanitizeState() {
+    const removedIds=new Set(state.movies.filter(isUnwantedBeethoven).map(m=>m.id));
+    state.movies=state.movies.filter(m=>!isUnwantedBeethoven(m));
+    state.offers=state.offers.filter(o=>!removedIds.has(o.movieId));
+    return removedIds.size;
+  }
   const state = { view:"owned", category:"filmes", sortBy:"title", movies:[], offers:[], selectedMovieId:null, settings:{} };
 
   function loadSettings() {
@@ -25,8 +35,7 @@
       state.movies = structuredClone(window.BIBLIOTECA_SEED || []);
       state.offers = structuredClone(window.BIBLIOTECA_OFFERS_SEED || []);
     }
-    state.movies = state.movies.filter(m=>!REMOVED_MOVIE_IDS.has(m.id));
-    state.offers = state.offers.filter(o=>!REMOVED_MOVIE_IDS.has(o.movieId));
+    sanitizeState();
     persistLocal();
   }
   function persistLocal() { localStorage.setItem(STORAGE_KEY, JSON.stringify({seedVersion:SEED_VERSION,movies:state.movies,offers:state.offers})); }
@@ -45,7 +54,10 @@
     const data=await response.json(); if(!data.ok) throw new Error(data.error||"Erro na API"); return data;
   }
   async function sync() {
-    const data=await api("bootstrap"); state.movies=data.movies||[]; state.offers=data.offers||[]; persistLocal(); return data;
+    const data=await api("bootstrap"); state.movies=data.movies||[]; state.offers=data.offers||[];
+    const removed=sanitizeState(); persistLocal();
+    if(removed) await api("replaceAll",{movies:state.movies,offers:state.offers});
+    return data;
   }
   async function write(action,payload) { if(state.settings.apiUrl) await api(action,payload); }
   async function saveMovie(input) {
@@ -72,7 +84,7 @@
   async function toggleOffer(id) { const o=state.offers.find(x=>x.id===id);if(!o)return;o.status=o.status==="active"?"ended":"active";o.updatedAt=new Date().toISOString();persistLocal();await write("saveOffer",{offer:o}); }
   async function deleteOffer(id) { const i=state.offers.findIndex(o=>o.id===id);if(i<0)return;state.offers.splice(i,1);persistLocal();if(state.settings.apiUrl)await api("replaceAll",{movies:state.movies,offers:state.offers}); }
   async function replaceRemote() { return api("replaceAll",{movies:state.movies,offers:state.offers}); }
-  function replaceLocal(data) { if(!Array.isArray(data.movies)||!Array.isArray(data.offers)) throw new Error("Arquivo inválido"); state.movies=data.movies;state.offers=data.offers;persistLocal(); }
+  function replaceLocal(data) { if(!Array.isArray(data.movies)||!Array.isArray(data.offers)) throw new Error("Arquivo inválido"); state.movies=data.movies;state.offers=data.offers;sanitizeState();persistLocal(); }
 
   loadSettings(); loadLocal();
   window.LibraryData={state,num,total,activeOffers,bestOffer,getMovie,saveSettings,sync,saveMovie,saveOffer,markOwned,toggleOffer,deleteOffer,replaceRemote,replaceLocal,persistLocal};
