@@ -15,7 +15,11 @@
     const removedIds=new Set(state.movies.filter(isUnwantedMovie).map(m=>m.id));
     state.movies=state.movies.filter(m=>!isUnwantedMovie(m));
     state.offers=state.offers.filter(o=>!removedIds.has(o.movieId));
-    return removedIds.size;
+    let changed=removedIds.size;
+    for(const m of state.movies){
+      if(normalizedTitle(m.title)==="as aventuras de pi" && m.coverUrl!=="https://image.tmdb.org/t/p/original/iLgRu4hhSr6V1uManX6ukDriiSc.jpg"){m.coverUrl="https://image.tmdb.org/t/p/original/iLgRu4hhSr6V1uManX6ukDriiSc.jpg";changed++;}
+    }
+    return changed;
   }
   const state = { view:"owned", category:"filmes", sortBy:"title", movies:[], offers:[], selectedMovieId:null, settings:{} };
 
