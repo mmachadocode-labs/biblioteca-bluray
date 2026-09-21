@@ -8,7 +8,8 @@
     const t=normalizedTitle(m?.title);
     const unwantedBeethoven=t.startsWith("beethoven") && t!=="beethoven o magnifico" && t!=="beethoven 2";
     const unwantedHomeAlone=t.startsWith("esqueceram de mim") && t!=="esqueceram de mim" && t!=="esqueceram de mim 2";
-    return unwantedBeethoven || unwantedHomeAlone;
+    const unwantedFreeWilly=t.startsWith("free willy");
+    return unwantedBeethoven || unwantedHomeAlone || unwantedFreeWilly;
   }
   function sanitizeState() {
     const removedIds=new Set(state.movies.filter(isUnwantedMovie).map(m=>m.id));
