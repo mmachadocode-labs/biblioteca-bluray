@@ -268,7 +268,7 @@ window.BIBLIOTECA_SEED = [
     "priority": "media",
     "targetPrice": 0,
     "limitPrice": 0,
-    "coverUrl": "https://xl.movieposterdb.com/13_03/2012/454876/xl_454876_5f3dc835.jpg",
+    "coverUrl": "https://image.tmdb.org/t/p/original/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
     "tags": [
       "Blu-ray"
     ],
