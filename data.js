@@ -18,6 +18,14 @@
     let changed=removedIds.size;
     for(const m of state.movies){
       if(normalizedTitle(m.title)==="as aventuras de pi" && m.coverUrl!=="https://image.tmdb.org/t/p/original/iLgRu4hhSr6V1uManX6ukDriiSc.jpg"){m.coverUrl="https://image.tmdb.org/t/p/original/iLgRu4hhSr6V1uManX6ukDriiSc.jpg";changed++;}
+      if(normalizedTitle(m.title)==="meu malvado favorito 2"){
+        let movieChanged=false;
+        if(m.status!=="owned"){m.status="owned";movieChanged=true;}
+        if(m.category!=="infantil"){m.category="infantil";movieChanged=true;}
+        if(m.priority!==""){m.priority="";movieChanged=true;}
+        if(!String(m.notes||"").includes("R$ 10,00")){m.notes=String(m.notes||"").trim();m.notes+=(m.notes?" ":"")+"Comprado por R$ 10,00.";movieChanged=true;}
+        if(movieChanged){m.updatedAt=new Date().toISOString();changed++;}
+      }
     }
     return changed;
   }
